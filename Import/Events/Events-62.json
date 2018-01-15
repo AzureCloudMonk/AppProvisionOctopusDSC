@@ -2,25 +2,30 @@
   "$type": "Octopus.Core.Model.Events.Event, Octopus.Core",
   "Id": "Events-62",
   "RelatedDocumentIds": [
-    "Machines-21",
-    "Environments-1"
+    "Users-1",
+    "teams-everyone"
   ],
   "ProjectId": null,
-  "EnvironmentId": "Environments-1",
+  "EnvironmentId": null,
   "TenantId": null,
-  "Category": "Created",
-  "UserId": "Users-1",
-  "Username": "admin",
-  "Occurred": "2018-01-14T13:07:52.3546381+00:00",
-  "Message": "Machine WEB1 was created",
+  "Category": "Modified",
+  "UserId": "users-system",
+  "Username": "system",
+  "Occurred": "2018-01-14T12:23:39.3661757+00:00",
+  "Message": "User admin was added to the team Everyone",
   "MessageReferences": [
     {
-      "ReferencedDocumentId": "Machines-21",
-      "StartIndex": 8,
-      "Length": 4
+      "ReferencedDocumentId": "Users-1",
+      "StartIndex": 5,
+      "Length": 5
+    },
+    {
+      "ReferencedDocumentId": "teams-everyone",
+      "StartIndex": 33,
+      "Length": 8
     }
   ],
   "Comments": null,
-  "Details": "<span>{\r&para;<br>  \"Id\": \"Machines-21\",\r&para;<br>  \"Name\": \"WEB1\",\r&para;<br>  \"Endpoint\": {\r&para;<br>    \"$type\": \"Octopus.Core.Model.Environments.Endpoints.ListeningTentacleEndpoint, Octopus.Core\",\r&para;<br>    \"ProxyId\": null,\r&para;<br>    \"Thumbprint\": \"9B0907AAAB66C7B9035A1AF06018B59225ED2748\",\r&para;<br>    \"Uri\": \"https://web1:10933/\",\r&para;<br>    \"UpgradeLocked\": false\r&para;<br>  },\r&para;<br>  \"IsDisabled\": false,\r&para;<br>  \"Roles\": [\r&para;<br>    \"web-server\"\r&para;<br>  ],\r&para;<br>  \"EnvironmentIds\": [\r&para;<br>    \"Environments-1\"\r&para;<br>  ],\r&para;<br>  \"TenantedDeploymentParticipation\": \"Untenanted\",\r&para;<br>  \"TenantIds\": [],\r&para;<br>  \"TenantTags\": [],\r&para;<br>  \"MachinePolicyId\": \"MachinePolicies-1\"\r&para;<br>}</span>",
-  "IdentityEstablishedWith": "Session cookie"
+  "Details": null,
+  "IdentityEstablishedWith": "Unknown"
 }

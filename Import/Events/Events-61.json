@@ -2,25 +2,24 @@
   "$type": "Octopus.Core.Model.Events.Event, Octopus.Core",
   "Id": "Events-61",
   "RelatedDocumentIds": [
-    "Machines-1",
-    "Environments-1"
+    "Users-1"
   ],
   "ProjectId": null,
-  "EnvironmentId": "Environments-1",
+  "EnvironmentId": null,
   "TenantId": null,
-  "Category": "MachineUnavailable",
+  "Category": "Created",
   "UserId": "users-system",
   "Username": "system",
-  "Occurred": "2018-01-14T13:07:33.6887607+00:00",
-  "Message": "Machine D06CEEB923A1 became unavailable",
+  "Occurred": "2018-01-14T12:23:39.284093+00:00",
+  "Message": "User admin has been created ",
   "MessageReferences": [
     {
-      "ReferencedDocumentId": "Machines-1",
-      "StartIndex": 8,
-      "Length": 12
+      "ReferencedDocumentId": "Users-1",
+      "StartIndex": 5,
+      "Length": 5
     }
   ],
   "Comments": null,
-  "Details": "An error occurred when sending a request to 'https://d06ceeb923a1:10933/', before the request could begin: No such host is known\r\nNo such host is known",
+  "Details": null,
   "IdentityEstablishedWith": "Unknown"
 }

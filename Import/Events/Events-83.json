@@ -2,41 +2,39 @@
   "$type": "Octopus.Core.Model.Events.Event, Octopus.Core",
   "Id": "Events-83",
   "RelatedDocumentIds": [
-    "Deployments-21",
-    "Projects-1",
-    "Releases-1",
+    "Deployments-1",
+    "Projects-2",
     "Environments-1",
-    "ServerTasks-45",
-    "Channels-1",
+    "Channels-2",
     "ProjectGroups-1"
   ],
-  "ProjectId": "Projects-1",
+  "ProjectId": "Projects-2",
   "EnvironmentId": "Environments-1",
   "TenantId": null,
   "Category": "DeploymentSucceeded",
   "UserId": "users-system",
   "Username": "system",
-  "Occurred": "2018-01-14T19:14:41.2205923+00:00",
-  "Message": "Deploy to Development (#2) succeeded  for InvokeDsc release 2.0.92 to Development",
+  "Occurred": "2018-01-14T12:38:28.5304635+00:00",
+  "Message": "Deploy to Development succeeded  for InvokeDsc release 2.0.92 to Development",
   "MessageReferences": [
     {
-      "ReferencedDocumentId": "Deployments-21",
+      "ReferencedDocumentId": "Deployments-1",
       "StartIndex": 0,
-      "Length": 26
+      "Length": 21
     },
     {
-      "ReferencedDocumentId": "Projects-1",
-      "StartIndex": 42,
+      "ReferencedDocumentId": "Projects-2",
+      "StartIndex": 37,
       "Length": 9
     },
     {
-      "ReferencedDocumentId": "Releases-1",
-      "StartIndex": 60,
+      "ReferencedDocumentId": "NotFound",
+      "StartIndex": 55,
       "Length": 6
     },
     {
       "ReferencedDocumentId": "Environments-1",
-      "StartIndex": 70,
+      "StartIndex": 65,
       "Length": 11
     }
   ],

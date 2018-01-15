@@ -2,30 +2,42 @@
   "$type": "Octopus.Core.Model.Events.Event, Octopus.Core",
   "Id": "Events-121",
   "RelatedDocumentIds": [
-    "Projects-1",
-    "Releases-26"
+    "Projects-2",
+    "Environments-1",
+    "Channels-2",
+    "ProjectGroups-1"
   ],
-  "ProjectId": "Projects-1",
-  "EnvironmentId": null,
+  "ProjectId": "Projects-2",
+  "EnvironmentId": "Environments-1",
   "TenantId": null,
-  "Category": "Deleted",
-  "UserId": "Users-1",
-  "Username": "admin",
-  "Occurred": "2018-01-14T19:30:28.8290885+00:00",
-  "Message": "InvokeDsc release 2.0.92 was deleted",
+  "Category": "DeploymentSucceeded",
+  "UserId": "users-system",
+  "Username": "system",
+  "Occurred": "2018-01-14T19:14:41.2205923+00:00",
+  "Message": "Deploy to Development (#2) succeeded  for InvokeDsc release 2.0.92 to Development",
   "MessageReferences": [
     {
-      "ReferencedDocumentId": "Projects-1",
+      "ReferencedDocumentId": "NotFound",
       "StartIndex": 0,
+      "Length": 26
+    },
+    {
+      "ReferencedDocumentId": "Projects-2",
+      "StartIndex": 42,
       "Length": 9
     },
     {
-      "ReferencedDocumentId": "Releases-26",
-      "StartIndex": 18,
+      "ReferencedDocumentId": "NotFound",
+      "StartIndex": 60,
       "Length": 6
+    },
+    {
+      "ReferencedDocumentId": "Environments-1",
+      "StartIndex": 70,
+      "Length": 11
     }
   ],
   "Comments": null,
-  "Details": "<span>{</span><del style=\"background:#ffe6e6;\">\r&para;<br>  \"Id\": \"Releases-26\",\r&para;<br>  \"Version\": \"2.0.92\",\r&para;<br>  \"ReleaseNotes\": null,\r&para;<br>  \"Assembled\": \"2018-01-14T19:28:10.1065517+00:00\",\r&para;<br>  \"ReleaseDefects\": [],\r&para;<br>  \"ProjectId\": \"Projects-1\",\r&para;<br>  \"ProjectVariableSetSnapshotId\": \"variableset-Projects-1-s-0-PTVUK\",\r&para;<br>  \"ProjectDeploymentProcessSnapshotId\": \"deploymentprocess-Projects-1-s-6-HPLWR\",\r&para;<br>  \"LibraryVariableSetSnapshots\": [],\r&para;<br>  \"SelectedPackages\": [\r&para;<br>    {\r&para;<br>      \"ActionName\": \"Deploy PackageManagement\",\r&para;<br>      \"Version\": \"1.1.7.0\"\r&para;<br>    },\r&para;<br>    {\r&para;<br>      \"ActionName\": \"Deploy Pester\",\r&para;<br>      \"Version\": \"4.1.1\"\r&para;<br>    },\r&para;<br>    {\r&para;<br>      \"ActionName\": \"Deploy InvokeDsc\",\r&para;<br>      \"Version\": \"2.0.92\"\r&para;<br>    }\r&para;<br>  ],\r&para;<br>  \"ChannelId\": \"Channels-1\"\r&para;<br></del><span>}</span>",
-  "IdentityEstablishedWith": "Session cookie"
+  "Details": null,
+  "IdentityEstablishedWith": "Unknown"
 }

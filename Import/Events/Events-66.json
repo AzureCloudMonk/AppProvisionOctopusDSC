@@ -2,25 +2,24 @@
   "$type": "Octopus.Core.Model.Events.Event, Octopus.Core",
   "Id": "Events-66",
   "RelatedDocumentIds": [
-    "Machines-1",
-    "Environments-1"
+    "Users-1"
   ],
   "ProjectId": null,
-  "EnvironmentId": "Environments-1",
+  "EnvironmentId": null,
   "TenantId": null,
-  "Category": "MachineDeleted",
+  "Category": "Created",
   "UserId": "Users-1",
   "Username": "admin",
-  "Occurred": "2018-01-14T13:08:25.8763246+00:00",
-  "Message": "Machine D06CEEB923A1 was deleted (domain-event)",
+  "Occurred": "2018-01-14T13:06:26.7356458+00:00",
+  "Message": "User admin was created using the admin command line",
   "MessageReferences": [
     {
-      "ReferencedDocumentId": "Machines-1",
-      "StartIndex": 8,
-      "Length": 12
+      "ReferencedDocumentId": "Users-1",
+      "StartIndex": 5,
+      "Length": 5
     }
   ],
   "Comments": null,
   "Details": null,
-  "IdentityEstablishedWith": "Session cookie"
+  "IdentityEstablishedWith": "Command-line or tools"
 }

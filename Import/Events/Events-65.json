@@ -2,25 +2,24 @@
   "$type": "Octopus.Core.Model.Events.Event, Octopus.Core",
   "Id": "Events-65",
   "RelatedDocumentIds": [
-    "Machines-1",
-    "Environments-1"
+    "feeds-psgallery"
   ],
   "ProjectId": null,
-  "EnvironmentId": "Environments-1",
+  "EnvironmentId": null,
   "TenantId": null,
-  "Category": "Deleted",
+  "Category": "Created",
   "UserId": "Users-1",
   "Username": "admin",
-  "Occurred": "2018-01-14T13:08:25.8432769+00:00",
-  "Message": "Machine D06CEEB923A1 was deleted",
+  "Occurred": "2018-01-14T12:27:27.2207093+00:00",
+  "Message": "NuGetFeed PSGallery was created",
   "MessageReferences": [
     {
-      "ReferencedDocumentId": "Machines-1",
-      "StartIndex": 8,
-      "Length": 12
+      "ReferencedDocumentId": "feeds-psgallery",
+      "StartIndex": 10,
+      "Length": 9
     }
   ],
   "Comments": null,
-  "Details": "<span>{</span><del style=\"background:#ffe6e6;\">\r&para;<br>  \"Id\": \"Machines-1\",\r&para;<br>  \"Name\": \"D06CEEB923A1\",\r&para;<br>  \"Endpoint\": {\r&para;<br>    \"$type\": \"Octopus.Core.Model.Environments.Endpoints.ListeningTentacleEndpoint, Octopus.Core\",\r&para;<br>    \"ProxyId\": null,\r&para;<br>    \"Thumbprint\": \"1F345969657B6F2A803CE486EF72F49CE4E65638\",\r&para;<br>    \"Uri\": \"https://d06ceeb923a1:10933/\",\r&para;<br>    \"UpgradeLocked\": false\r&para;<br>  },\r&para;<br>  \"IsDisabled\": false,\r&para;<br>  \"Roles\": [\r&para;<br>    \"web-server\"\r&para;<br>  ],\r&para;<br>  \"EnvironmentIds\": [\r&para;<br>    \"Environments-1\"\r&para;<br>  ],\r&para;<br>  \"TenantedDeploymentParticipation\": \"Untenanted\",\r&para;<br>  \"TenantIds\": [],\r&para;<br>  \"TenantTags\": [],\r&para;<br>  \"MachinePolicyId\": \"MachinePolicies-1\"\r&para;<br></del><span>}</span>",
+  "Details": "<span>{\r&para;<br>  \"DownloadAttempts\": 5,\r&para;<br>  \"DownloadRetryBackoffSeconds\": 10,\r&para;<br>  \"EnhancedMode\": false,\r&para;<br>  \"Id\": \"feeds-psgallery\",\r&para;<br>  \"Name\": \"PSGallery\",\r&para;<br>  \"FeedUri\": \"https://www.powershellgallery.com/api/v2/\",\r&para;<br>  \"Username\": null,\r&para;<br>  \"Password\": null,\r&para;<br>  \"FeedType\": \"NuGet\"\r&para;<br>}</span>",
   "IdentityEstablishedWith": "Session cookie"
 }

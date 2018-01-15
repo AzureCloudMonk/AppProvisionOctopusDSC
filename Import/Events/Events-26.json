@@ -2,30 +2,37 @@
   "$type": "Octopus.Core.Model.Events.Event, Octopus.Core",
   "Id": "Events-26",
   "RelatedDocumentIds": [
-    "Users-1",
-    "teams-everyone"
+    "Projects-1",
+    "Environments-1",
+    "Channels-1",
+    "ProjectGroups-1"
   ],
-  "ProjectId": null,
-  "EnvironmentId": null,
+  "ProjectId": "Projects-1",
+  "EnvironmentId": "Environments-1",
   "TenantId": null,
-  "Category": "Modified",
-  "UserId": "users-system",
-  "Username": "system",
-  "Occurred": "2018-01-14T12:23:39.3661757+00:00",
-  "Message": "User admin was added to the team Everyone",
+  "Category": "DeploymentQueued",
+  "UserId": "Users-1",
+  "Username": "admin",
+  "Occurred": "2018-01-14T19:22:21.9640136+00:00",
+  "Message": "Deployed ansibleish release 0.0.1 to Development",
   "MessageReferences": [
     {
-      "ReferencedDocumentId": "Users-1",
-      "StartIndex": 5,
+      "ReferencedDocumentId": "Projects-1",
+      "StartIndex": 9,
+      "Length": 10
+    },
+    {
+      "ReferencedDocumentId": "NotFound",
+      "StartIndex": 28,
       "Length": 5
     },
     {
-      "ReferencedDocumentId": "teams-everyone",
-      "StartIndex": 33,
-      "Length": 8
+      "ReferencedDocumentId": "Environments-1",
+      "StartIndex": 37,
+      "Length": 11
     }
   ],
   "Comments": null,
   "Details": null,
-  "IdentityEstablishedWith": "Unknown"
+  "IdentityEstablishedWith": "Session cookie"
 }

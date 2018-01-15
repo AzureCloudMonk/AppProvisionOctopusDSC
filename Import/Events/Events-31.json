@@ -2,24 +2,29 @@
   "$type": "Octopus.Core.Model.Events.Event, Octopus.Core",
   "Id": "Events-31",
   "RelatedDocumentIds": [
-    "ServerTasks-16"
+    "Projects-1"
   ],
-  "ProjectId": null,
+  "ProjectId": "Projects-1",
   "EnvironmentId": null,
   "TenantId": null,
   "Category": "Created",
   "UserId": "Users-1",
   "Username": "admin",
-  "Occurred": "2018-01-14T12:30:20.8032934+00:00",
-  "Message": "Ran task Upgrade Tentacles",
+  "Occurred": "2018-01-14T19:23:53.6507723+00:00",
+  "Message": "ansibleish release 0.0.1 was created",
   "MessageReferences": [
     {
-      "ReferencedDocumentId": "ServerTasks-16",
-      "StartIndex": 9,
-      "Length": 17
+      "ReferencedDocumentId": "Projects-1",
+      "StartIndex": 0,
+      "Length": 10
+    },
+    {
+      "ReferencedDocumentId": "NotFound",
+      "StartIndex": 19,
+      "Length": 5
     }
   ],
   "Comments": null,
-  "Details": "<span>{\r&para;<br>  \"Id\": \"ServerTasks-8\",\r&para;<br>  \"Name\": \"Upgrade\",\r&para;<br>  \"Arguments\": {},\r&para;<br>  \"Description\": \"Upgrade Tentacles\",\r&para;<br>  \"QueueTime\": \"2018-01-14T12:30:20.7973649+00:00\",\r&para;<br>  \"QueueTimeExpiry\": \"10675199.02:48:05.4775807\",\r&para;<br>  \"ExecutionTimeExpiry\": \"00:00:00\",\r&para;<br>  \"StartTime\": null,\r&para;<br>  \"LastUpdatedTime\": null,\r&para;<br>  \"CompletedTime\": null,\r&para;<br>  \"ErrorMessage\": \"\",\r&para;<br>  \"ConcurrencyTag\": \"Upgrade\",\r&para;<br>  \"State\": \"Queued\",\r&para;<br>  \"HasPendingInterruptions\": false,\r&para;<br>  \"HasWarningsOrErrors\": false,\r&para;<br>  \"ServerVersion\": null,\r&para;<br>  \"ServerNodeId\": null,\r&para;<br>  \"LogDifferentiationToken\": \"CCU7GVTUF6\",\r&para;<br>  \"AdditionalDescription\": null,\r&para;<br>  \"DurationSeconds\": 0,\r&para;<br>  \"QueueTimeExpiryDateTimeOffset\": \"9999-12-31T23:59:59.9999999+00:00\",\r&para;<br>  \"ProjectId\": null,\r&para;<br>  \"EnvironmentId\": null,\r&para;<br>  \"TenantId\": null,\r&para;<br>  \"ExtendedViewLogPermissions\": [\r&para;<br>    \"AdministerSystem\"\r&para;<br>  ],\r&para;<br>  \"ExtendedCreatePermissions\": [\r&para;<br>    \"AdministerSystem\"\r&para;<br>  ],\r&para;<br>  \"CanRerun\": true,\r&para;<br>  \"Properties\": {}\r&para;<br>}</span>",
+  "Details": "<span>{\r&para;<br>  \"Id\": \"Releases-25\",\r&para;<br>  \"Version\": \"0.0.1\",\r&para;<br>  \"ReleaseNotes\": null,\r&para;<br>  \"Assembled\": \"2018-01-14T19:23:53.5913107+00:00\",\r&para;<br>  \"ReleaseDefects\": [],\r&para;<br>  \"ProjectId\": \"Projects-21\",\r&para;<br>  \"ProjectVariableSetSnapshotId\": \"variableset-Projects-21-s-0-QX4CG\",\r&para;<br>  \"ProjectDeploymentProcessSnapshotId\": \"deploymentprocess-Projects-21-s-4-Z7SRQ\",\r&para;<br>  \"LibraryVariableSetSnapshots\": [],\r&para;<br>  \"SelectedPackages\": [\r&para;<br>    {\r&para;<br>      \"ActionName\": \"Deploy ansibleish\",\r&para;<br>      \"Version\": \"0.0.1\"\r&para;<br>    }\r&para;<br>  ],\r&para;<br>  \"ChannelId\": \"Channels-21\"\r&para;<br>}</span>",
   "IdentityEstablishedWith": "Session cookie"
 }
