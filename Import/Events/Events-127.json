@@ -1,0 +1,46 @@
+{
+  "$type": "Octopus.Core.Model.Events.Event, Octopus.Core",
+  "Id": "Events-127",
+  "RelatedDocumentIds": [
+    "Deployments-29",
+    "Projects-21",
+    "Releases-25",
+    "Environments-1",
+    "ServerTasks-53",
+    "Channels-21",
+    "ProjectGroups-1"
+  ],
+  "ProjectId": "Projects-21",
+  "EnvironmentId": "Environments-1",
+  "TenantId": null,
+  "Category": "DeploymentStarted",
+  "UserId": "users-system",
+  "Username": "system",
+  "Occurred": "2018-01-14T19:31:55.4724123+00:00",
+  "Message": "Deploy to Development (#2) started  for ansibleish release 0.0.1 to Development",
+  "MessageReferences": [
+    {
+      "ReferencedDocumentId": "Deployments-29",
+      "StartIndex": 0,
+      "Length": 26
+    },
+    {
+      "ReferencedDocumentId": "Projects-21",
+      "StartIndex": 40,
+      "Length": 10
+    },
+    {
+      "ReferencedDocumentId": "Releases-25",
+      "StartIndex": 59,
+      "Length": 5
+    },
+    {
+      "ReferencedDocumentId": "Environments-1",
+      "StartIndex": 68,
+      "Length": 11
+    }
+  ],
+  "Comments": null,
+  "Details": null,
+  "IdentityEstablishedWith": "Unknown"
+}

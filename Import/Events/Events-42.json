@@ -1,0 +1,41 @@
+{
+  "$type": "Octopus.Core.Model.Events.Event, Octopus.Core",
+  "Id": "Events-42",
+  "RelatedDocumentIds": [
+    "Deployments-1",
+    "Projects-1",
+    "Releases-1",
+    "Environments-1",
+    "ServerTasks-17",
+    "Channels-1",
+    "ProjectGroups-1"
+  ],
+  "ProjectId": "Projects-1",
+  "EnvironmentId": "Environments-1",
+  "TenantId": null,
+  "Category": "DeploymentQueued",
+  "UserId": "Users-1",
+  "Username": "admin",
+  "Occurred": "2018-01-14T12:37:32.5492317+00:00",
+  "Message": "Deployed InvokeDsc release 2.0.92 to Development",
+  "MessageReferences": [
+    {
+      "ReferencedDocumentId": "Projects-1",
+      "StartIndex": 9,
+      "Length": 9
+    },
+    {
+      "ReferencedDocumentId": "Releases-1",
+      "StartIndex": 27,
+      "Length": 6
+    },
+    {
+      "ReferencedDocumentId": "Environments-1",
+      "StartIndex": 37,
+      "Length": 11
+    }
+  ],
+  "Comments": null,
+  "Details": null,
+  "IdentityEstablishedWith": "Session cookie"
+}

@@ -1,0 +1,26 @@
+{
+  "$type": "Octopus.Core.Model.Events.Event, Octopus.Core",
+  "Id": "Events-71",
+  "RelatedDocumentIds": [
+    "Machines-21",
+    "Environments-1"
+  ],
+  "ProjectId": null,
+  "EnvironmentId": "Environments-1",
+  "TenantId": null,
+  "Category": "MachineUnhealthy",
+  "UserId": "users-system",
+  "Username": "system",
+  "Occurred": "2018-01-14T13:13:54.9389519+00:00",
+  "Message": "Machine WEB1 became unhealthy",
+  "MessageReferences": [
+    {
+      "ReferencedDocumentId": "Machines-21",
+      "StartIndex": 8,
+      "Length": 4
+    }
+  ],
+  "Comments": null,
+  "Details": "The task was canceled",
+  "IdentityEstablishedWith": "Unknown"
+}

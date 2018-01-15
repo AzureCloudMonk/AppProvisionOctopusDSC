@@ -1,0 +1,26 @@
+{
+  "$type": "Octopus.Core.Model.Events.Event, Octopus.Core",
+  "Id": "Events-63",
+  "RelatedDocumentIds": [
+    "Machines-21",
+    "Environments-1"
+  ],
+  "ProjectId": null,
+  "EnvironmentId": "Environments-1",
+  "TenantId": null,
+  "Category": "MachineAdded",
+  "UserId": "Users-1",
+  "Username": "admin",
+  "Occurred": "2018-01-14T13:07:52.4075527+00:00",
+  "Message": "Machine WEB1 was created (domain-event)",
+  "MessageReferences": [
+    {
+      "ReferencedDocumentId": "Machines-21",
+      "StartIndex": 8,
+      "Length": 4
+    }
+  ],
+  "Comments": null,
+  "Details": null,
+  "IdentityEstablishedWith": "Session cookie"
+}

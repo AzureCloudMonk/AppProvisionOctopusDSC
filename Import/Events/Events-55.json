@@ -1,0 +1,26 @@
+{
+  "$type": "Octopus.Core.Model.Events.Event, Octopus.Core",
+  "Id": "Events-55",
+  "RelatedDocumentIds": [
+    "Machines-1",
+    "Environments-1"
+  ],
+  "ProjectId": null,
+  "EnvironmentId": "Environments-1",
+  "TenantId": null,
+  "Category": "MachineHasWarnings",
+  "UserId": "users-system",
+  "Username": "system",
+  "Occurred": "2018-01-14T12:43:27.3672419+00:00",
+  "Message": "Machine D06CEEB923A1 became healthy but has warnings",
+  "MessageReferences": [
+    {
+      "ReferencedDocumentId": "Machines-1",
+      "StartIndex": 8,
+      "Length": 12
+    }
+  ],
+  "Comments": null,
+  "Details": "Warning: Not running latest version of Calamari. Expected: 4.1.5\r\nWarning: No versions of Calamari are installed.",
+  "IdentityEstablishedWith": "Unknown"
+}
