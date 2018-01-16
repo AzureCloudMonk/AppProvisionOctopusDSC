@@ -1,7 +1,7 @@
 {
   "$type": "Octopus.Core.Model.Projects.ActionTemplateVersion, Octopus.Core",
-  "LatestActionTemplateId": "ActionTemplates-21",
-  "Id": "ActionTemplateVersions-22",
+  "LatestActionTemplateId": "ActionTemplates-1",
+  "Id": "ActionTemplateVersions-2",
   "Name": "Invoke-DscAppConfig",
   "Description": "Converts targeted json file to PSCustomObjects and invokes them with InvokeDSC module.",
   "Version": 1,

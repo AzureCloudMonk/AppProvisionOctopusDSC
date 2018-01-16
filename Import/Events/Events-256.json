@@ -1,0 +1,41 @@
+{
+  "$type": "Octopus.Core.Model.Events.Event, Octopus.Core",
+  "Id": "Events-256",
+  "RelatedDocumentIds": [
+    "Deployments-26",
+    "Projects-3",
+    "Releases-6",
+    "Environments-1",
+    "ServerTasks-77",
+    "Channels-3",
+    "ProjectGroups-1"
+  ],
+  "ProjectId": "Projects-3",
+  "EnvironmentId": "Environments-1",
+  "TenantId": null,
+  "Category": "DeploymentQueued",
+  "UserId": "Users-1",
+  "Username": "admin",
+  "Occurred": "2018-01-16T18:05:56.6911761+00:00",
+  "Message": "Deployed webApp release 0.0.2 to Development",
+  "MessageReferences": [
+    {
+      "ReferencedDocumentId": "Projects-3",
+      "StartIndex": 9,
+      "Length": 6
+    },
+    {
+      "ReferencedDocumentId": "Releases-6",
+      "StartIndex": 24,
+      "Length": 5
+    },
+    {
+      "ReferencedDocumentId": "Environments-1",
+      "StartIndex": 33,
+      "Length": 11
+    }
+  ],
+  "Comments": null,
+  "Details": null,
+  "IdentityEstablishedWith": "Session cookie"
+}

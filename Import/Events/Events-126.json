@@ -2,42 +2,24 @@
   "$type": "Octopus.Core.Model.Events.Event, Octopus.Core",
   "Id": "Events-126",
   "RelatedDocumentIds": [
-    "Projects-2",
-    "Environments-1",
-    "Channels-2",
-    "ProjectGroups-1"
+    "feeds-builtin"
   ],
-  "ProjectId": "Projects-2",
-  "EnvironmentId": "Environments-1",
+  "ProjectId": null,
+  "EnvironmentId": null,
   "TenantId": null,
-  "Category": "DeploymentSucceeded",
-  "UserId": "users-system",
-  "Username": "system",
-  "Occurred": "2018-01-14T19:16:27.1577031+00:00",
-  "Message": "Deploy to Development succeeded  for InvokeDsc release 2.0.92 to Development",
+  "Category": "Created",
+  "UserId": "Users-1",
+  "Username": "admin",
+  "Occurred": "2018-01-16T15:23:29.1383789+00:00",
+  "Message": "Package webApp version 0.0.1 was pushed to the builtin feed",
   "MessageReferences": [
     {
-      "ReferencedDocumentId": "NotFound",
-      "StartIndex": 0,
-      "Length": 21
-    },
-    {
-      "ReferencedDocumentId": "Projects-2",
-      "StartIndex": 37,
-      "Length": 9
-    },
-    {
-      "ReferencedDocumentId": "NotFound",
-      "StartIndex": 55,
-      "Length": 6
-    },
-    {
-      "ReferencedDocumentId": "Environments-1",
-      "StartIndex": 65,
-      "Length": 11
+      "ReferencedDocumentId": "feeds-builtin",
+      "StartIndex": 47,
+      "Length": 7
     }
   ],
   "Comments": null,
   "Details": null,
-  "IdentityEstablishedWith": "Unknown"
+  "IdentityEstablishedWith": "Session cookie"
 }

@@ -1,17 +1,43 @@
 {
   "$type": "Octopus.Core.Model.Events.Event, Octopus.Core",
   "Id": "Events-138",
-  "RelatedDocumentIds": [],
-  "ProjectId": null,
-  "EnvironmentId": null,
+  "RelatedDocumentIds": [
+    "Projects-1",
+    "Environments-1",
+    "Channels-1",
+    "ProjectGroups-1"
+  ],
+  "ProjectId": "Projects-1",
+  "EnvironmentId": "Environments-1",
   "TenantId": null,
-  "Category": "Imported",
-  "UserId": "User Manager",
-  "Username": "ContainerAdministrator",
-  "Occurred": "2018-01-15T15:06:03.4412269+00:00",
-  "Message": "Imported documents using Octopus migration tools",
-  "MessageReferences": [],
+  "Category": "DeploymentSucceeded",
+  "UserId": "users-system",
+  "Username": "system",
+  "Occurred": "2018-01-16T17:51:52.7868347+00:00",
+  "Message": "Deploy to Development succeeded  for ansibleish release 0.0.1 to Development",
+  "MessageReferences": [
+    {
+      "ReferencedDocumentId": "NotFound",
+      "StartIndex": 0,
+      "Length": 21
+    },
+    {
+      "ReferencedDocumentId": "Projects-1",
+      "StartIndex": 37,
+      "Length": 10
+    },
+    {
+      "ReferencedDocumentId": "NotFound",
+      "StartIndex": 56,
+      "Length": 5
+    },
+    {
+      "ReferencedDocumentId": "Environments-1",
+      "StartIndex": 65,
+      "Length": 11
+    }
+  ],
   "Comments": null,
-  "Details": "  Created.........................................692\r\n    ActionTemplate................................1\r\n    ActionTemplateVersion.........................1\r\n    Attachment....................................267\r\n    Channel.......................................2\r\n    CommunityActionTemplate.......................267\r\n    DeploymentEnvironment.........................1\r\n    DeploymentProcess.............................3\r\n    Event.........................................107\r\n    NuGetFeed.....................................1\r\n    Project.......................................2\r\n    ServerTask....................................38\r\n    VariableSet...................................2\r\n  Missing dependencies............................5\r\n    Deployment....................................1\r\n    ServerTask....................................4\r\n  Skipped (incomplete)............................10\r\n    Event.........................................10\r\n  Skipped (key collision).........................1\r\n    ServerTask....................................1\r\n  Skipped (no overwrite)..........................23\r\n    CertificateConfiguration......................1\r\n    FeaturesConfiguration.........................1\r\n    Lifecycle.....................................1\r\n    MachinePolicy.................................1\r\n    NuGetFeed.....................................1\r\n    ProjectGroup..................................1\r\n    ServerConfiguration...........................1\r\n    SmtpConfiguration.............................1\r\n    Team..........................................2\r\n    User..........................................1\r\n    UserRole......................................11\r\n    WebPortalConfiguration........................1\r\n  Unchanged.......................................6\r\n    ExtensionConfiguration........................6\r\n",
-  "IdentityEstablishedWith": "Command-line or tools"
+  "Details": null,
+  "IdentityEstablishedWith": "Unknown"
 }

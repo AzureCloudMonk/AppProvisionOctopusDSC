@@ -2,45 +2,29 @@
   "$type": "Octopus.Core.Model.Events.Event, Octopus.Core",
   "Id": "Events-177",
   "RelatedDocumentIds": [
-    "Deployments-26",
-    "Projects-21",
-    "Releases-6",
-    "Environments-1",
-    "ServerTasks-59",
-    "Channels-21",
-    "ProjectGroups-1"
+    "Projects-3"
   ],
-  "ProjectId": "Projects-21",
-  "EnvironmentId": "Environments-1",
+  "ProjectId": "Projects-3",
+  "EnvironmentId": null,
   "TenantId": null,
-  "Category": "DeploymentStarted",
-  "UserId": "users-system",
-  "Username": "system",
-  "Occurred": "2018-01-15T18:27:46.255943+00:00",
-  "Message": "Deploy to Development started  for webApp release 0.0.2 to Development",
+  "Category": "Created",
+  "UserId": "Users-1",
+  "Username": "admin",
+  "Occurred": "2018-01-14T19:23:53.6507723+00:00",
+  "Message": "ansibleish release 0.0.1 was created",
   "MessageReferences": [
     {
-      "ReferencedDocumentId": "Deployments-26",
+      "ReferencedDocumentId": "Projects-3",
       "StartIndex": 0,
-      "Length": 21
+      "Length": 10
     },
     {
-      "ReferencedDocumentId": "Projects-21",
-      "StartIndex": 35,
-      "Length": 6
-    },
-    {
-      "ReferencedDocumentId": "Releases-6",
-      "StartIndex": 50,
+      "ReferencedDocumentId": "NotFound",
+      "StartIndex": 19,
       "Length": 5
-    },
-    {
-      "ReferencedDocumentId": "Environments-1",
-      "StartIndex": 59,
-      "Length": 11
     }
   ],
   "Comments": null,
-  "Details": null,
-  "IdentityEstablishedWith": "Unknown"
+  "Details": "<span>{\r&para;<br>  \"Id\": \"Releases-25\",\r&para;<br>  \"Version\": \"0.0.1\",\r&para;<br>  \"ReleaseNotes\": null,\r&para;<br>  \"Assembled\": \"2018-01-14T19:23:53.5913107+00:00\",\r&para;<br>  \"ReleaseDefects\": [],\r&para;<br>  \"ProjectId\": \"Projects-21\",\r&para;<br>  \"ProjectVariableSetSnapshotId\": \"variableset-Projects-21-s-0-QX4CG\",\r&para;<br>  \"ProjectDeploymentProcessSnapshotId\": \"deploymentprocess-Projects-21-s-4-Z7SRQ\",\r&para;<br>  \"LibraryVariableSetSnapshots\": [],\r&para;<br>  \"SelectedPackages\": [\r&para;<br>    {\r&para;<br>      \"ActionName\": \"Deploy ansibleish\",\r&para;<br>      \"Version\": \"0.0.1\"\r&para;<br>    }\r&para;<br>  ],\r&para;<br>  \"ChannelId\": \"Channels-21\"\r&para;<br>}</span>",
+  "IdentityEstablishedWith": "Session cookie"
 }

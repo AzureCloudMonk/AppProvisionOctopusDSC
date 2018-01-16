@@ -2,39 +2,21 @@
   "$type": "Octopus.Core.Model.Events.Event, Octopus.Core",
   "Id": "Events-46",
   "RelatedDocumentIds": [
-    "Projects-2",
-    "Environments-1",
-    "Channels-2",
-    "ProjectGroups-1"
+    "Users-1"
   ],
-  "ProjectId": "Projects-2",
-  "EnvironmentId": "Environments-1",
+  "ProjectId": null,
+  "EnvironmentId": null,
   "TenantId": null,
-  "Category": "DeploymentStarted",
+  "Category": "Created",
   "UserId": "users-system",
   "Username": "system",
-  "Occurred": "2018-01-14T19:30:34.8023634+00:00",
-  "Message": "Deploy to Development started  for InvokeDsc release 2.0.92 to Development",
+  "Occurred": "2018-01-14T13:06:26.6364906+00:00",
+  "Message": "User admin has been created ",
   "MessageReferences": [
     {
-      "ReferencedDocumentId": "NotFound",
-      "StartIndex": 0,
-      "Length": 21
-    },
-    {
-      "ReferencedDocumentId": "Projects-2",
-      "StartIndex": 35,
-      "Length": 9
-    },
-    {
-      "ReferencedDocumentId": "NotFound",
-      "StartIndex": 53,
-      "Length": 6
-    },
-    {
-      "ReferencedDocumentId": "Environments-1",
-      "StartIndex": 63,
-      "Length": 11
+      "ReferencedDocumentId": "Users-1",
+      "StartIndex": 5,
+      "Length": 5
     }
   ],
   "Comments": null,

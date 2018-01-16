@@ -2,40 +2,24 @@
   "$type": "Octopus.Core.Model.Events.Event, Octopus.Core",
   "Id": "Events-186",
   "RelatedDocumentIds": [
-    "Deployments-28",
-    "Projects-21",
-    "Releases-8",
-    "Environments-1",
-    "ServerTasks-61",
-    "Channels-21",
-    "ProjectGroups-1"
+    "Users-1"
   ],
-  "ProjectId": "Projects-21",
-  "EnvironmentId": "Environments-1",
+  "ProjectId": null,
+  "EnvironmentId": null,
   "TenantId": null,
-  "Category": "DeploymentQueued",
+  "Category": "Modified",
   "UserId": "Users-1",
   "Username": "admin",
-  "Occurred": "2018-01-15T18:33:27.0855667+00:00",
-  "Message": "Deployed webApp release 0.0.4 to Development",
+  "Occurred": "2018-01-16T15:21:17.3669571+00:00",
+  "Message": "User admin set password using the admin command line",
   "MessageReferences": [
     {
-      "ReferencedDocumentId": "Projects-21",
-      "StartIndex": 9,
-      "Length": 6
-    },
-    {
-      "ReferencedDocumentId": "Releases-8",
-      "StartIndex": 24,
+      "ReferencedDocumentId": "Users-1",
+      "StartIndex": 5,
       "Length": 5
-    },
-    {
-      "ReferencedDocumentId": "Environments-1",
-      "StartIndex": 33,
-      "Length": 11
     }
   ],
   "Comments": null,
   "Details": null,
-  "IdentityEstablishedWith": "Session cookie"
+  "IdentityEstablishedWith": "Command-line or tools"
 }

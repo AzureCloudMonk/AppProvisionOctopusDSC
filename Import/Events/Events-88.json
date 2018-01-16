@@ -2,30 +2,24 @@
   "$type": "Octopus.Core.Model.Events.Event, Octopus.Core",
   "Id": "Events-88",
   "RelatedDocumentIds": [
-    "Users-1",
-    "teams-administrators"
+    "Projects-2"
   ],
-  "ProjectId": null,
+  "ProjectId": "Projects-2",
   "EnvironmentId": null,
   "TenantId": null,
-  "Category": "Modified",
+  "Category": "Created",
   "UserId": "Users-1",
   "Username": "admin",
-  "Occurred": "2018-01-14T13:06:26.7670431+00:00",
-  "Message": "User admin was added to Octopus Administrators using the admin command line",
+  "Occurred": "2018-01-14T12:26:19.8500633+00:00",
+  "Message": "Project InvokeDsc was created",
   "MessageReferences": [
     {
-      "ReferencedDocumentId": "Users-1",
-      "StartIndex": 5,
-      "Length": 5
-    },
-    {
-      "ReferencedDocumentId": "teams-administrators",
-      "StartIndex": 24,
-      "Length": 22
+      "ReferencedDocumentId": "Projects-2",
+      "StartIndex": 8,
+      "Length": 9
     }
   ],
   "Comments": null,
-  "Details": null,
-  "IdentityEstablishedWith": "Command-line or tools"
+  "Details": "<span>{\r&para;<br>  \"Id\": \"Projects-1\",\r&para;<br>  \"Name\": \"InvokeDsc\",\r&para;<br>  \"Description\": \"\",\r&para;<br>  \"Slug\": \"invokedsc\",\r&para;<br>  \"IsDisabled\": false,\r&para;<br>  \"VariableSetId\": null,\r&para;<br>  \"DeploymentProcessId\": null,\r&para;<br>  \"ProjectGroupId\": \"ProjectGroups-1\",\r&para;<br>  \"LifecycleId\": \"Lifecycles-1\",\r&para;<br>  \"AutoCreateRelease\": false,\r&para;<br>  \"DiscreteChannelRelease\": false,\r&para;<br>  \"IncludedLibraryVariableSetIds\": [],\r&para;<br>  \"UsedPackages\": [],\r&para;<br>  \"DefaultToSkipIfAlreadyInstalled\": false,\r&para;<br>  \"TenantedDeploymentMode\": \"Untenanted\",\r&para;<br>  \"VersioningStrategy\": {\r&para;<br>    \"DonorPackageStepId\": null,\r&para;<br>    \"Template\": \"#{Octopus.Version.LastMajor}.#{Octopus.Version.LastMinor}.#{Octopus.Version.NextPatch}\"\r&para;<br>  },\r&para;<br>  \"DefaultGuidedFailureMode\": \"EnvironmentDefault\",\r&para;<br>  \"Templates\": [],\r&para;<br>  \"ReleaseCreationStrategy\": {\r&para;<br>    \"ReleaseCreationPackageStepId\": null,\r&para;<br>    \"ChannelId\": null\r&para;<br>  },\r&para;<br>  \"ProjectConnectivityPolicy\": {\r&para;<br>    \"SkipMachineBehavior\": \"None\",\r&para;<br>    \"TargetRoles\": [],\r&para;<br>    \"AllowDeploymentsToNoTargets\": false\r&para;<br>  },\r&para;<br>  \"AutoDeployReleaseOverrides\": []\r&para;<br>}</span>",
+  "IdentityEstablishedWith": "Session cookie"
 }

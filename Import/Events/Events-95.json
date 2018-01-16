@@ -2,24 +2,24 @@
   "$type": "Octopus.Core.Model.Events.Event, Octopus.Core",
   "Id": "Events-95",
   "RelatedDocumentIds": [
-    "ServerTasks-38"
+    "Channels-2"
   ],
   "ProjectId": null,
   "EnvironmentId": null,
   "TenantId": null,
-  "Category": "Created",
+  "Category": "Modified",
   "UserId": "Users-1",
   "Username": "admin",
-  "Occurred": "2018-01-14T12:43:29.8700651+00:00",
-  "Message": "Ran task Upgrade Tentacles",
+  "Occurred": "2018-01-14T12:31:59.6296281+00:00",
+  "Message": "Channel Default was modified",
   "MessageReferences": [
     {
-      "ReferencedDocumentId": "ServerTasks-38",
-      "StartIndex": 9,
-      "Length": 17
+      "ReferencedDocumentId": "Channels-2",
+      "StartIndex": 8,
+      "Length": 7
     }
   ],
   "Comments": null,
-  "Details": "<span>{\r&para;<br>  \"Id\": \"ServerTasks-27\",\r&para;<br>  \"Name\": \"Upgrade\",\r&para;<br>  \"Arguments\": {},\r&para;<br>  \"Description\": \"Upgrade Tentacles\",\r&para;<br>  \"QueueTime\": \"2018-01-14T12:43:29.8648252+00:00\",\r&para;<br>  \"QueueTimeExpiry\": \"10675199.02:48:05.4775807\",\r&para;<br>  \"ExecutionTimeExpiry\": \"00:00:00\",\r&para;<br>  \"StartTime\": null,\r&para;<br>  \"LastUpdatedTime\": null,\r&para;<br>  \"CompletedTime\": null,\r&para;<br>  \"ErrorMessage\": \"\",\r&para;<br>  \"ConcurrencyTag\": \"Upgrade\",\r&para;<br>  \"State\": \"Queued\",\r&para;<br>  \"HasPendingInterruptions\": false,\r&para;<br>  \"HasWarningsOrErrors\": false,\r&para;<br>  \"ServerVersion\": null,\r&para;<br>  \"ServerNodeId\": null,\r&para;<br>  \"LogDifferentiationToken\": \"R9XFTZ7UCX\",\r&para;<br>  \"AdditionalDescription\": null,\r&para;<br>  \"DurationSeconds\": 0,\r&para;<br>  \"QueueTimeExpiryDateTimeOffset\": \"9999-12-31T23:59:59.9999999+00:00\",\r&para;<br>  \"ProjectId\": null,\r&para;<br>  \"EnvironmentId\": null,\r&para;<br>  \"TenantId\": null,\r&para;<br>  \"ExtendedViewLogPermissions\": [\r&para;<br>    \"AdministerSystem\"\r&para;<br>  ],\r&para;<br>  \"ExtendedCreatePermissions\": [\r&para;<br>    \"AdministerSystem\"\r&para;<br>  ],\r&para;<br>  \"CanRerun\": true,\r&para;<br>  \"Properties\": {}\r&para;<br>}</span>",
+  "Details": "<span>{\r&para;<br>  \"Id\": \"Channels-1\",\r&para;<br>  \"Name\": \"Default\",\r&para;<br>  \"Description\": null,\r&para;<br>  \"ProjectId\": \"Projects-1\",\r&para;<br>  \"LifecycleId\": null,\r&para;<br>  \"IsDefault\": true,\r&para;<br>  \"TenantTags\": [],\r&para;<br>  \"Rules\": [</span><ins style=\"background:#e6ffe6;\">\r&para;<br>    {\r&para;<br>      \"Id\": \"2080c149-19a6-4861-a374-a442f7f4578e\",\r&para;<br>      \"Actions\": [\r&para;<br>        \"eeb387eb-761e-4836-956d-cd136afa0301\"\r&para;<br>      ],\r&para;<br>      \"VersionRange\": \"(,1.1.7.0]\",\r&para;<br>      \"Tag\": \"\"\r&para;<br>    }\r&para;<br>  </ins><span>]\r&para;<br>}</span>",
   "IdentityEstablishedWith": "Session cookie"
 }

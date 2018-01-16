@@ -2,24 +2,24 @@
   "$type": "Octopus.Core.Model.Events.Event, Octopus.Core",
   "Id": "Events-100",
   "RelatedDocumentIds": [
-    "Environments-1"
+    "Channels-2"
   ],
   "ProjectId": null,
-  "EnvironmentId": "Environments-1",
+  "EnvironmentId": null,
   "TenantId": null,
-  "Category": "Created",
+  "Category": "Modified",
   "UserId": "Users-1",
   "Username": "admin",
-  "Occurred": "2018-01-14T13:07:52.3546381+00:00",
-  "Message": "Machine WEB1 was created",
+  "Occurred": "2018-01-14T12:35:41.4215014+00:00",
+  "Message": "Channel Default was modified",
   "MessageReferences": [
     {
-      "ReferencedDocumentId": "NotFound",
+      "ReferencedDocumentId": "Channels-2",
       "StartIndex": 8,
-      "Length": 4
+      "Length": 7
     }
   ],
   "Comments": null,
-  "Details": "<span>{\r&para;<br>  \"Id\": \"Machines-21\",\r&para;<br>  \"Name\": \"WEB1\",\r&para;<br>  \"Endpoint\": {\r&para;<br>    \"$type\": \"Octopus.Core.Model.Environments.Endpoints.ListeningTentacleEndpoint, Octopus.Core\",\r&para;<br>    \"ProxyId\": null,\r&para;<br>    \"Thumbprint\": \"9B0907AAAB66C7B9035A1AF06018B59225ED2748\",\r&para;<br>    \"Uri\": \"https://web1:10933/\",\r&para;<br>    \"UpgradeLocked\": false\r&para;<br>  },\r&para;<br>  \"IsDisabled\": false,\r&para;<br>  \"Roles\": [\r&para;<br>    \"web-server\"\r&para;<br>  ],\r&para;<br>  \"EnvironmentIds\": [\r&para;<br>    \"Environments-1\"\r&para;<br>  ],\r&para;<br>  \"TenantedDeploymentParticipation\": \"Untenanted\",\r&para;<br>  \"TenantIds\": [],\r&para;<br>  \"TenantTags\": [],\r&para;<br>  \"MachinePolicyId\": \"MachinePolicies-1\"\r&para;<br>}</span>",
+  "Details": "<span>{\r&para;<br>  \"Id\": \"Channels-1\",\r&para;<br>  \"Name\": \"Default\",\r&para;<br>  \"Description\": null,\r&para;<br>  \"ProjectId\": \"Projects-1\",\r&para;<br>  \"LifecycleId\": null,\r&para;<br>  \"IsDefault\": true,\r&para;<br>  \"TenantTags\": [],\r&para;<br>  \"Rules\": [\r&para;<br>    {\r&para;<br>      \"Id\": \"2080c149-19a6-4861-a374-a442f7f4578e\",\r&para;<br>      \"Actions\": [\r&para;<br>        \"eeb387eb-761e-4836-956d-cd136afa0301\"\r&para;<br>      ],\r&para;<br>      \"VersionRange\": \"(,1.1.7.0]\",\r&para;<br>      \"Tag\": \"\"\r&para;<br></span><ins style=\"background:#e6ffe6;\">    },\r&para;<br>    {\r&para;<br>      \"Id\": \"3f6bd762-7046-49b5-a663-6b5825a30c3a\",\r&para;<br>      \"Actions\": [\r&para;<br>        \"b1e58f04-cc5f-4413-9bab-91bbe74fb1f8\"\r&para;<br>      ],\r&para;<br>      \"VersionRange\": \"(,4.1.1]\",\r&para;<br>      \"Tag\": \"\"\r&para;<br>    },\r&para;<br>    {\r&para;<br>      \"Id\": \"30d7d18e-824b-433d-947c-03598e03fc3a\",\r&para;<br>      \"Actions\": [\r&para;<br>        \"5b15e075-03b3-432c-8164-e07b9bc3df38\"\r&para;<br>      ],\r&para;<br>      \"VersionRange\": \"(,2.0.92]\",\r&para;<br>      \"Tag\": \"\"\r&para;<br></ins><span>    }\r&para;<br>  ]\r&para;<br>}</span>",
   "IdentityEstablishedWith": "Session cookie"
 }

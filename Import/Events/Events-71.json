@@ -2,24 +2,37 @@
   "$type": "Octopus.Core.Model.Events.Event, Octopus.Core",
   "Id": "Events-71",
   "RelatedDocumentIds": [
-    "Channels-2"
+    "Projects-1",
+    "Environments-1",
+    "Channels-1",
+    "ProjectGroups-1"
   ],
-  "ProjectId": null,
-  "EnvironmentId": null,
+  "ProjectId": "Projects-1",
+  "EnvironmentId": "Environments-1",
   "TenantId": null,
-  "Category": "Modified",
+  "Category": "DeploymentQueued",
   "UserId": "Users-1",
   "Username": "admin",
-  "Occurred": "2018-01-14T12:31:59.6296281+00:00",
-  "Message": "Channel Default was modified",
+  "Occurred": "2018-01-14T19:31:55.4340678+00:00",
+  "Message": "Deployed ansibleish release 0.0.1 to Development (#2)",
   "MessageReferences": [
     {
-      "ReferencedDocumentId": "Channels-2",
-      "StartIndex": 8,
-      "Length": 7
+      "ReferencedDocumentId": "Projects-1",
+      "StartIndex": 9,
+      "Length": 10
+    },
+    {
+      "ReferencedDocumentId": "NotFound",
+      "StartIndex": 28,
+      "Length": 5
+    },
+    {
+      "ReferencedDocumentId": "Environments-1",
+      "StartIndex": 37,
+      "Length": 16
     }
   ],
   "Comments": null,
-  "Details": "<span>{\r&para;<br>  \"Id\": \"Channels-1\",\r&para;<br>  \"Name\": \"Default\",\r&para;<br>  \"Description\": null,\r&para;<br>  \"ProjectId\": \"Projects-1\",\r&para;<br>  \"LifecycleId\": null,\r&para;<br>  \"IsDefault\": true,\r&para;<br>  \"TenantTags\": [],\r&para;<br>  \"Rules\": [</span><ins style=\"background:#e6ffe6;\">\r&para;<br>    {\r&para;<br>      \"Id\": \"2080c149-19a6-4861-a374-a442f7f4578e\",\r&para;<br>      \"Actions\": [\r&para;<br>        \"eeb387eb-761e-4836-956d-cd136afa0301\"\r&para;<br>      ],\r&para;<br>      \"VersionRange\": \"(,1.1.7.0]\",\r&para;<br>      \"Tag\": \"\"\r&para;<br>    }\r&para;<br>  </ins><span>]\r&para;<br>}</span>",
+  "Details": null,
   "IdentityEstablishedWith": "Session cookie"
 }

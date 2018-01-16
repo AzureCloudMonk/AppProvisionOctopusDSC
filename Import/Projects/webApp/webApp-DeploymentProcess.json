@@ -1,8 +1,8 @@
 {
   "$type": "Octopus.Core.Model.Projects.DeploymentProcess, Octopus.Core",
-  "Id": "deploymentprocess-Projects-21",
-  "OwnerId": "Projects-21",
-  "Version": 9,
+  "Id": "deploymentprocess-Projects-3",
+  "OwnerId": "Projects-3",
+  "Version": 11,
   "Steps": [
     {
       "Id": "c4c65385-87f6-4241-a36f-a4d48235a970",
@@ -21,11 +21,14 @@
           "Channels": [],
           "TenantTags": [],
           "Properties": {
-            "Octopus.Action.EnabledFeatures": "Octopus.Features.JsonConfigurationVariables",
+            "Octopus.Action.EnabledFeatures": "Octopus.Features.JsonConfigurationVariables,Octopus.Features.SubstituteInFiles",
             "Octopus.Action.Package.DownloadOnTentacle": "False",
             "Octopus.Action.Package.FeedId": "feeds-builtin",
             "Octopus.Action.Package.PackageId": "webApp",
-            "Octopus.Action.Package.JsonConfigurationVariablesEnabled": "True"
+            "Octopus.Action.Package.JsonConfigurationVariablesEnabled": "True",
+            "Octopus.Action.SubstituteInFiles.Enabled": "True",
+            "Octopus.Action.Package.JsonConfigurationVariablesTargets": "webApp.IISConfig.json",
+            "Octopus.Action.SubstituteInFiles.TargetFiles": "webApp.IISConfig.json"
           }
         }
       ],
@@ -54,38 +57,10 @@
             "Octopus.Action.Script.Syntax": "PowerShell",
             "Octopus.Action.Script.ScriptBody": "try\n{\n\tImport-Module InvokeDSC -Force\n}\ncatch [System.IO.FileNotFoundException]\n{\n\tthrow 'InvokeDSC module not found'\n}\n\n$splat = @{\n    Path = $Path\n    Repository = $Repository\n}\n\nInvoke-DscConfiguration @splat",
             "Octopus.Action.Template.Version": "2",
-            "Octopus.Action.Template.Id": "ActionTemplates-21",
+            "Octopus.Action.Template.Id": "ActionTemplates-1",
             "Octopus.Action.RunOnServer": "false",
             "Repository": "PSGallery",
             "Path": "#{Octopus.Action[Deploy webApp].Output.Package.InstallationDirectoryPath}\\webApp.IISConfig.json"
-          }
-        }
-      ],
-      "Properties": {
-        "Octopus.Action.TargetRoles": "web-server"
-      }
-    },
-    {
-      "Id": "5be46a18-e62f-4c81-b484-8de3115c8685",
-      "Name": "Write-Out Variables",
-      "Condition": "Success",
-      "StartTrigger": "StartAfterPrevious",
-      "RequiresPackagesToBeAcquired": false,
-      "Actions": [
-        {
-          "Id": "ea4e4240-1928-4376-92af-803f7d3c7bf1",
-          "Name": "Write-Out Variables",
-          "ActionType": "Octopus.Script",
-          "IsDisabled": false,
-          "Environments": [],
-          "ExcludedEnvironments": [],
-          "Channels": [],
-          "TenantTags": [],
-          "Properties": {
-            "Octopus.Action.RunOnServer": "false",
-            "Octopus.Action.Script.ScriptSource": "Inline",
-            "Octopus.Action.Script.Syntax": "PowerShell",
-            "Octopus.Action.Script.ScriptBody": "$OctopusParameters[\"Octopus.Action[Deploy webApp].Output.Package.InstallationDirectoryPath\"]\n\n#{Octopus.Action[Deploy webApp].Output.Package.InstallationDirectoryPath"
           }
         }
       ],

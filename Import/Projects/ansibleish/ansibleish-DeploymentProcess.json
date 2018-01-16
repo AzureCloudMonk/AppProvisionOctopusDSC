@@ -55,7 +55,7 @@
             "Octopus.Action.Script.Syntax": "PowerShell",
             "Octopus.Action.Script.ScriptBody": "#Requires -Version 5\n\n. \"$Path\\scripts\\Invoke-Playbook.ps1\"\n\n$splat = @{\n        Path = $Path\n        HostName = $HostName\n        Repository = $Repository\n        inventoryName = $inventoryName\n    }\n    if ($Include)\n    {\n        $Include = $Include -split ','\n        $splat.Add('Include',$Include)\n    }\n    elseif ($Exclude)\n    {\n        $Exclude = $Exclude -split ','\n        $splat.Add('Exclude',$Exclude)\n    }\n\nInvoke-Playbook @splat",
             "Octopus.Action.Template.Version": "1",
-            "Octopus.Action.Template.Id": "ActionTemplates-1",
+            "Octopus.Action.Template.Id": "ActionTemplates-2",
             "Repository": "PSGallery",
             "Octopus.Action.RunOnServer": "false",
             "HostName": "#{Octopus.Machine.Name}",

@@ -2,45 +2,37 @@
   "$type": "Octopus.Core.Model.Events.Event, Octopus.Core",
   "Id": "Events-157",
   "RelatedDocumentIds": [
-    "Deployments-22",
-    "Projects-1",
-    "Releases-2",
+    "Projects-3",
     "Environments-1",
-    "ServerTasks-55",
-    "Channels-1",
+    "Channels-3",
     "ProjectGroups-1"
   ],
-  "ProjectId": "Projects-1",
+  "ProjectId": "Projects-3",
   "EnvironmentId": "Environments-1",
   "TenantId": null,
-  "Category": "DeploymentSucceeded",
-  "UserId": "users-system",
-  "Username": "system",
-  "Occurred": "2018-01-15T18:14:06.8805238+00:00",
-  "Message": "Deploy to Development succeeded  for ansibleish release 0.0.1 to Development",
+  "Category": "DeploymentQueued",
+  "UserId": "Users-1",
+  "Username": "admin",
+  "Occurred": "2018-01-16T17:58:42.1739601+00:00",
+  "Message": "Deployed webApp release 0.0.1 to Development",
   "MessageReferences": [
     {
-      "ReferencedDocumentId": "Deployments-22",
-      "StartIndex": 0,
-      "Length": 21
+      "ReferencedDocumentId": "Projects-3",
+      "StartIndex": 9,
+      "Length": 6
     },
     {
-      "ReferencedDocumentId": "Projects-1",
-      "StartIndex": 37,
-      "Length": 10
-    },
-    {
-      "ReferencedDocumentId": "Releases-2",
-      "StartIndex": 56,
+      "ReferencedDocumentId": "NotFound",
+      "StartIndex": 24,
       "Length": 5
     },
     {
       "ReferencedDocumentId": "Environments-1",
-      "StartIndex": 65,
+      "StartIndex": 33,
       "Length": 11
     }
   ],
   "Comments": null,
   "Details": null,
-  "IdentityEstablishedWith": "Unknown"
+  "IdentityEstablishedWith": "Session cookie"
 }

@@ -1,3 +1,2 @@
 /webApp/webApp.*.nupkg
-*.nupkg
-Repository/webApp/webApp.0.0.1.nupkg
+applications/*
