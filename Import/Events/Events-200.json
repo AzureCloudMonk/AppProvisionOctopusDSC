@@ -2,38 +2,39 @@
   "$type": "Octopus.Core.Model.Events.Event, Octopus.Core",
   "Id": "Events-200",
   "RelatedDocumentIds": [
-    "Projects-1",
+    "Deployments-1",
+    "Projects-2",
     "Environments-1",
-    "Channels-1",
+    "Channels-2",
     "ProjectGroups-1"
   ],
-  "ProjectId": "Projects-1",
+  "ProjectId": "Projects-2",
   "EnvironmentId": "Environments-1",
   "TenantId": null,
-  "Category": "DeploymentStarted",
+  "Category": "DeploymentSucceeded",
   "UserId": "users-system",
   "Username": "system",
-  "Occurred": "2018-01-14T19:17:03.4841158+00:00",
-  "Message": "Deploy to Development started  for ansibleish release 0.0.1 to Development",
+  "Occurred": "2018-01-14T12:38:28.5304635+00:00",
+  "Message": "Deploy to Development succeeded  for InvokeDsc release 2.0.92 to Development",
   "MessageReferences": [
     {
-      "ReferencedDocumentId": "NotFound",
+      "ReferencedDocumentId": "Deployments-1",
       "StartIndex": 0,
       "Length": 21
     },
     {
-      "ReferencedDocumentId": "Projects-1",
-      "StartIndex": 35,
-      "Length": 10
+      "ReferencedDocumentId": "Projects-2",
+      "StartIndex": 37,
+      "Length": 9
     },
     {
       "ReferencedDocumentId": "NotFound",
-      "StartIndex": 54,
-      "Length": 5
+      "StartIndex": 55,
+      "Length": 6
     },
     {
       "ReferencedDocumentId": "Environments-1",
-      "StartIndex": 63,
+      "StartIndex": 65,
       "Length": 11
     }
   ],

@@ -2,7 +2,7 @@
   "$type": "Octopus.Core.Model.Variables.VariableSet, Octopus.Core",
   "Id": "variableset-Projects-3",
   "OwnerId": "Projects-3",
-  "Version": 4,
+  "Version": 7,
   "Variables": [
     {
       "Id": "8f79b053-a4c2-82f9-2c12-b4b02c26f8cc",
@@ -37,7 +37,7 @@
       "Name": "webAppLogsDestinationPath",
       "Description": null,
       "Type": "String",
-      "Value": "c:\\\\webApp\\\\logs",
+      "Value": "c:\\\\logs\\\\webApp",
       "Scope": {
         "Environment": [
           "Environments-1"

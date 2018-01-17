@@ -2,42 +2,29 @@
   "$type": "Octopus.Core.Model.Events.Event, Octopus.Core",
   "Id": "Events-231",
   "RelatedDocumentIds": [
-    "Projects-3",
-    "Environments-1",
-    "Channels-3",
-    "ProjectGroups-1"
+    "Projects-1"
   ],
-  "ProjectId": "Projects-3",
-  "EnvironmentId": "Environments-1",
+  "ProjectId": "Projects-1",
+  "EnvironmentId": null,
   "TenantId": null,
-  "Category": "DeploymentStarted",
-  "UserId": "users-system",
-  "Username": "system",
-  "Occurred": "2018-01-15T18:19:13.2308128+00:00",
-  "Message": "Deploy to Development started  for webApp release 0.0.1 to Development",
+  "Category": "Created",
+  "UserId": "Users-1",
+  "Username": "admin",
+  "Occurred": "2018-01-16T17:48:33.7623886+00:00",
+  "Message": "ansibleish release 0.0.1 was created",
   "MessageReferences": [
     {
-      "ReferencedDocumentId": "NotFound",
+      "ReferencedDocumentId": "Projects-1",
       "StartIndex": 0,
-      "Length": 21
-    },
-    {
-      "ReferencedDocumentId": "Projects-3",
-      "StartIndex": 35,
-      "Length": 6
+      "Length": 10
     },
     {
       "ReferencedDocumentId": "NotFound",
-      "StartIndex": 50,
+      "StartIndex": 19,
       "Length": 5
-    },
-    {
-      "ReferencedDocumentId": "Environments-1",
-      "StartIndex": 59,
-      "Length": 11
     }
   ],
   "Comments": null,
-  "Details": null,
-  "IdentityEstablishedWith": "Unknown"
+  "Details": "<span>{\r&para;<br>  \"Id\": \"Releases-2\",\r&para;<br>  \"Version\": \"0.0.1\",\r&para;<br>  \"ReleaseNotes\": null,\r&para;<br>  \"Assembled\": \"2018-01-16T17:48:33.6970244+00:00\",\r&para;<br>  \"ReleaseDefects\": [],\r&para;<br>  \"ProjectId\": \"Projects-1\",\r&para;<br>  \"ProjectVariableSetSnapshotId\": \"variableset-Projects-1-s-0-KN2NC\",\r&para;<br>  \"ProjectDeploymentProcessSnapshotId\": \"deploymentprocess-Projects-1-s-4-PNQVY\",\r&para;<br>  \"LibraryVariableSetSnapshots\": [],\r&para;<br>  \"SelectedPackages\": [\r&para;<br>    {\r&para;<br>      \"ActionName\": \"Deploy ansibleish\",\r&para;<br>      \"Version\": \"0.0.1\"\r&para;<br>    }\r&para;<br>  ],\r&para;<br>  \"ChannelId\": \"Channels-1\"\r&para;<br>}</span>",
+  "IdentityEstablishedWith": "Session cookie"
 }

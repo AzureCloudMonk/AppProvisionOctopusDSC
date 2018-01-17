@@ -2,29 +2,24 @@
   "$type": "Octopus.Core.Model.Events.Event, Octopus.Core",
   "Id": "Events-172",
   "RelatedDocumentIds": [
-    "ServerTasks-39"
+    "Environments-1"
   ],
   "ProjectId": null,
-  "EnvironmentId": null,
+  "EnvironmentId": "Environments-1",
   "TenantId": null,
   "Category": "Created",
   "UserId": "Users-1",
   "Username": "admin",
-  "Occurred": "2018-01-14T13:12:06.2666661+00:00",
-  "Message": "Task Upgrade Tentacles #29 was created by re-running task Upgrade Tentacles #27",
+  "Occurred": "2018-01-14T12:29:55.6820473+00:00",
+  "Message": "Machine 9599A500FE42 was created",
   "MessageReferences": [
     {
       "ReferencedDocumentId": "NotFound",
-      "StartIndex": 5,
-      "Length": 21
-    },
-    {
-      "ReferencedDocumentId": "ServerTasks-39",
-      "StartIndex": 58,
-      "Length": 21
+      "StartIndex": 8,
+      "Length": 12
     }
   ],
   "Comments": null,
-  "Details": "<span>{\r&para;<br>  \"Id\": \"ServerTasks-29\",\r&para;<br>  \"Name\": \"Upgrade\",\r&para;<br>  \"Arguments\": {},\r&para;<br>  \"Description\": \"Upgrade Tentacles\",\r&para;<br>  \"QueueTime\": \"2018-01-14T13:12:06.2633797+00:00\",\r&para;<br>  \"QueueTimeExpiry\": \"10675199.02:48:05.4775807\",\r&para;<br>  \"ExecutionTimeExpiry\": \"00:00:00\",\r&para;<br>  \"StartTime\": null,\r&para;<br>  \"LastUpdatedTime\": null,\r&para;<br>  \"CompletedTime\": null,\r&para;<br>  \"ErrorMessage\": \"\",\r&para;<br>  \"ConcurrencyTag\": null,\r&para;<br>  \"State\": \"Queued\",\r&para;<br>  \"HasPendingInterruptions\": false,\r&para;<br>  \"HasWarningsOrErrors\": false,\r&para;<br>  \"ServerVersion\": null,\r&para;<br>  \"ServerNodeId\": null,\r&para;<br>  \"LogDifferentiationToken\": \"L9B7B4N7P5\",\r&para;<br>  \"AdditionalDescription\": null,\r&para;<br>  \"DurationSeconds\": 0,\r&para;<br>  \"QueueTimeExpiryDateTimeOffset\": \"9999-12-31T23:59:59.9999999+00:00\",\r&para;<br>  \"ProjectId\": null,\r&para;<br>  \"EnvironmentId\": null,\r&para;<br>  \"TenantId\": null,\r&para;<br>  \"ExtendedViewLogPermissions\": [],\r&para;<br>  \"ExtendedCreatePermissions\": [],\r&para;<br>  \"CanRerun\": true,\r&para;<br>  \"Properties\": {}\r&para;<br>}</span>",
+  "Details": "<span>{\r&para;<br>  \"Id\": \"Machines-1\",\r&para;<br>  \"Name\": \"9599A500FE42\",\r&para;<br>  \"Endpoint\": {\r&para;<br>    \"$type\": \"Octopus.Core.Model.Environments.Endpoints.ListeningTentacleEndpoint, Octopus.Core\",\r&para;<br>    \"ProxyId\": null,\r&para;<br>    \"Thumbprint\": \"654C5D3B662A9E07CCF00A288266E192E749EDB9\",\r&para;<br>    \"Uri\": \"https://9599a500fe42:10933/\",\r&para;<br>    \"UpgradeLocked\": false\r&para;<br>  },\r&para;<br>  \"IsDisabled\": false,\r&para;<br>  \"Roles\": [\r&para;<br>    \"web-server\"\r&para;<br>  ],\r&para;<br>  \"EnvironmentIds\": [\r&para;<br>    \"Environments-1\"\r&para;<br>  ],\r&para;<br>  \"TenantedDeploymentParticipation\": \"Untenanted\",\r&para;<br>  \"TenantIds\": [],\r&para;<br>  \"TenantTags\": [],\r&para;<br>  \"MachinePolicyId\": \"MachinePolicies-1\"\r&para;<br>}</span>",
   "IdentityEstablishedWith": "Session cookie"
 }

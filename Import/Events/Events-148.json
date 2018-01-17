@@ -2,37 +2,42 @@
   "$type": "Octopus.Core.Model.Events.Event, Octopus.Core",
   "Id": "Events-148",
   "RelatedDocumentIds": [
-    "Projects-3",
+    "Projects-2",
     "Environments-1",
-    "Channels-3",
+    "Channels-2",
     "ProjectGroups-1"
   ],
-  "ProjectId": "Projects-3",
+  "ProjectId": "Projects-2",
   "EnvironmentId": "Environments-1",
   "TenantId": null,
-  "Category": "DeploymentQueued",
-  "UserId": "Users-1",
-  "Username": "admin",
-  "Occurred": "2018-01-16T17:53:51.3549371+00:00",
-  "Message": "Deployed webApp release 0.0.2 to Development",
+  "Category": "DeploymentStarted",
+  "UserId": "users-system",
+  "Username": "system",
+  "Occurred": "2018-01-14T19:30:34.8023634+00:00",
+  "Message": "Deploy to Development started  for InvokeDsc release 2.0.92 to Development",
   "MessageReferences": [
     {
-      "ReferencedDocumentId": "Projects-3",
-      "StartIndex": 9,
-      "Length": 6
+      "ReferencedDocumentId": "NotFound",
+      "StartIndex": 0,
+      "Length": 21
+    },
+    {
+      "ReferencedDocumentId": "Projects-2",
+      "StartIndex": 35,
+      "Length": 9
     },
     {
       "ReferencedDocumentId": "NotFound",
-      "StartIndex": 24,
-      "Length": 5
+      "StartIndex": 53,
+      "Length": 6
     },
     {
       "ReferencedDocumentId": "Environments-1",
-      "StartIndex": 33,
+      "StartIndex": 63,
       "Length": 11
     }
   ],
   "Comments": null,
   "Details": null,
-  "IdentityEstablishedWith": "Session cookie"
+  "IdentityEstablishedWith": "Unknown"
 }

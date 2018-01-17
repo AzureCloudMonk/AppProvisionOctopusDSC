@@ -13,7 +13,7 @@
   "Category": "DeploymentQueued",
   "UserId": "Users-1",
   "Username": "admin",
-  "Occurred": "2018-01-15T18:26:17.7742217+00:00",
+  "Occurred": "2018-01-16T17:52:16.5552765+00:00",
   "Message": "Deployed webApp release 0.0.1 to Development",
   "MessageReferences": [
     {

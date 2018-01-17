@@ -2,6 +2,7 @@
   "$type": "Octopus.Core.Model.Events.Event, Octopus.Core",
   "Id": "Events-188",
   "RelatedDocumentIds": [
+    "Deployments-1",
     "Projects-2",
     "Environments-1",
     "Channels-2",
@@ -13,8 +14,8 @@
   "Category": "DeploymentQueued",
   "UserId": "Users-1",
   "Username": "admin",
-  "Occurred": "2018-01-14T19:13:25.3883184+00:00",
-  "Message": "Deployed InvokeDsc release 2.0.92 to Development (#2)",
+  "Occurred": "2018-01-14T12:37:32.5492317+00:00",
+  "Message": "Deployed InvokeDsc release 2.0.92 to Development",
   "MessageReferences": [
     {
       "ReferencedDocumentId": "Projects-2",
@@ -29,7 +30,7 @@
     {
       "ReferencedDocumentId": "Environments-1",
       "StartIndex": 37,
-      "Length": 16
+      "Length": 11
     }
   ],
   "Comments": null,

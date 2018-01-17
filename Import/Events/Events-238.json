@@ -2,42 +2,24 @@
   "$type": "Octopus.Core.Model.Events.Event, Octopus.Core",
   "Id": "Events-238",
   "RelatedDocumentIds": [
-    "Projects-3",
-    "Environments-1",
-    "Channels-3",
-    "ProjectGroups-1"
+    "Environments-1"
   ],
-  "ProjectId": "Projects-3",
+  "ProjectId": null,
   "EnvironmentId": "Environments-1",
   "TenantId": null,
-  "Category": "DeploymentFailed",
-  "UserId": "users-system",
-  "Username": "system",
-  "Occurred": "2018-01-15T18:26:43.7518801+00:00",
-  "Message": "Deploy to Development failed  for webApp release 0.0.1 to Development",
+  "Category": "Created",
+  "UserId": "Users-1",
+  "Username": "admin",
+  "Occurred": "2018-01-14T13:07:52.3546381+00:00",
+  "Message": "Machine WEB1 was created",
   "MessageReferences": [
     {
       "ReferencedDocumentId": "NotFound",
-      "StartIndex": 0,
-      "Length": 21
-    },
-    {
-      "ReferencedDocumentId": "Projects-3",
-      "StartIndex": 34,
-      "Length": 6
-    },
-    {
-      "ReferencedDocumentId": "NotFound",
-      "StartIndex": 49,
-      "Length": 5
-    },
-    {
-      "ReferencedDocumentId": "Environments-1",
-      "StartIndex": 58,
-      "Length": 11
+      "StartIndex": 8,
+      "Length": 4
     }
   ],
   "Comments": null,
-  "Details": null,
-  "IdentityEstablishedWith": "Unknown"
+  "Details": "<span>{\r&para;<br>  \"Id\": \"Machines-21\",\r&para;<br>  \"Name\": \"WEB1\",\r&para;<br>  \"Endpoint\": {\r&para;<br>    \"$type\": \"Octopus.Core.Model.Environments.Endpoints.ListeningTentacleEndpoint, Octopus.Core\",\r&para;<br>    \"ProxyId\": null,\r&para;<br>    \"Thumbprint\": \"9B0907AAAB66C7B9035A1AF06018B59225ED2748\",\r&para;<br>    \"Uri\": \"https://web1:10933/\",\r&para;<br>    \"UpgradeLocked\": false\r&para;<br>  },\r&para;<br>  \"IsDisabled\": false,\r&para;<br>  \"Roles\": [\r&para;<br>    \"web-server\"\r&para;<br>  ],\r&para;<br>  \"EnvironmentIds\": [\r&para;<br>    \"Environments-1\"\r&para;<br>  ],\r&para;<br>  \"TenantedDeploymentParticipation\": \"Untenanted\",\r&para;<br>  \"TenantIds\": [],\r&para;<br>  \"TenantTags\": [],\r&para;<br>  \"MachinePolicyId\": \"MachinePolicies-1\"\r&para;<br>}</span>",
+  "IdentityEstablishedWith": "Session cookie"
 }

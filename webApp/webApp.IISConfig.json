@@ -33,7 +33,7 @@
      "WebApp":{
         "dscResourceName":"xWebApplication",
         "name":"webApp",
-        "PhysicalPath":"C:\\webApp",
+        "PhysicalPath":"#{WebAppDestinationPath}",
         "WebAppPool":"webApp",
         "WebSite":"Default Web Site",
         "PreloadEnabled":true,
@@ -53,7 +53,7 @@
      },
      "LogAccess":{
         "dscResourceName":"cNtfsPermissionEntry",
-        "Path":"c:\\webApp\\logs",
+        "Path":"#{webAppLogsDestinationPath}",
         "Principal":"IIS APPPOOL\\webApp",
         "AccessControlInformation":[
            {

@@ -3,24 +3,41 @@
   "Id": "Events-51",
   "RelatedDocumentIds": [
     "Projects-1",
-    "Environments-1"
+    "Environments-1",
+    "Channels-1",
+    "ProjectGroups-1"
   ],
   "ProjectId": "Projects-1",
   "EnvironmentId": "Environments-1",
   "TenantId": null,
-  "Category": "TaskCanceled",
-  "UserId": "Users-1",
-  "Username": "admin",
-  "Occurred": "2018-01-14T19:22:31.8462268+00:00",
-  "Message": "Task Deploy ansibleish release 0.0.1 to Development #49 was canceled",
+  "Category": "DeploymentStarted",
+  "UserId": "users-system",
+  "Username": "system",
+  "Occurred": "2018-01-14T19:19:22.7261719+00:00",
+  "Message": "Deploy to Development started  for ansibleish release 0.0.1 to Development",
   "MessageReferences": [
     {
       "ReferencedDocumentId": "NotFound",
-      "StartIndex": 5,
-      "Length": 50
+      "StartIndex": 0,
+      "Length": 21
+    },
+    {
+      "ReferencedDocumentId": "Projects-1",
+      "StartIndex": 35,
+      "Length": 10
+    },
+    {
+      "ReferencedDocumentId": "NotFound",
+      "StartIndex": 54,
+      "Length": 5
+    },
+    {
+      "ReferencedDocumentId": "Environments-1",
+      "StartIndex": 63,
+      "Length": 11
     }
   ],
   "Comments": null,
   "Details": null,
-  "IdentityEstablishedWith": "Session cookie"
+  "IdentityEstablishedWith": "Unknown"
 }
