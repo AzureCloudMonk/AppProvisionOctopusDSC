@@ -2,29 +2,29 @@
   "$type": "Octopus.Core.Model.Events.Event, Octopus.Core",
   "Id": "Events-189",
   "RelatedDocumentIds": [
-    "Projects-3"
+    "ServerTasks-25"
   ],
-  "ProjectId": "Projects-3",
+  "ProjectId": null,
   "EnvironmentId": null,
   "TenantId": null,
-  "Category": "Deleted",
+  "Category": "Created",
   "UserId": "Users-1",
   "Username": "admin",
-  "Occurred": "2018-01-16T18:07:17.0277287+00:00",
-  "Message": "webApp release 0.0.1 was deleted",
+  "Occurred": "2018-01-14T13:12:06.2666661+00:00",
+  "Message": "Task Upgrade Tentacles #29 was created by re-running task Upgrade Tentacles #27",
   "MessageReferences": [
     {
-      "ReferencedDocumentId": "Projects-3",
-      "StartIndex": 0,
-      "Length": 6
+      "ReferencedDocumentId": "NotFound",
+      "StartIndex": 5,
+      "Length": 21
     },
     {
-      "ReferencedDocumentId": "NotFound",
-      "StartIndex": 15,
-      "Length": 5
+      "ReferencedDocumentId": "ServerTasks-25",
+      "StartIndex": 58,
+      "Length": 21
     }
   ],
   "Comments": null,
-  "Details": "<span>{</span><del style=\"background:#ffe6e6;\">\r&para;<br>  \"Id\": \"Releases-5\",\r&para;<br>  \"Version\": \"0.0.1\",\r&para;<br>  \"ReleaseNotes\": null,\r&para;<br>  \"Assembled\": \"2018-01-16T17:58:38.5608052+00:00\",\r&para;<br>  \"ReleaseDefects\": [],\r&para;<br>  \"ProjectId\": \"Projects-3\",\r&para;<br>  \"ProjectVariableSetSnapshotId\": \"variableset-Projects-3-s-2-55Q68\",\r&para;<br>  \"ProjectDeploymentProcessSnapshotId\": \"deploymentprocess-Projects-3-s-11-6Q6DM\",\r&para;<br>  \"LibraryVariableSetSnapshots\": [],\r&para;<br>  \"SelectedPackages\": [\r&para;<br>    {\r&para;<br>      \"ActionName\": \"Deploy webApp\",\r&para;<br>      \"Version\": \"0.0.1\"\r&para;<br>    }\r&para;<br>  ],\r&para;<br>  \"ChannelId\": \"Channels-3\"\r&para;<br></del><span>}</span>",
+  "Details": "<span>{\r&para;<br>  \"Id\": \"ServerTasks-29\",\r&para;<br>  \"Name\": \"Upgrade\",\r&para;<br>  \"Arguments\": {},\r&para;<br>  \"Description\": \"Upgrade Tentacles\",\r&para;<br>  \"QueueTime\": \"2018-01-14T13:12:06.2633797+00:00\",\r&para;<br>  \"QueueTimeExpiry\": \"10675199.02:48:05.4775807\",\r&para;<br>  \"ExecutionTimeExpiry\": \"00:00:00\",\r&para;<br>  \"StartTime\": null,\r&para;<br>  \"LastUpdatedTime\": null,\r&para;<br>  \"CompletedTime\": null,\r&para;<br>  \"ErrorMessage\": \"\",\r&para;<br>  \"ConcurrencyTag\": null,\r&para;<br>  \"State\": \"Queued\",\r&para;<br>  \"HasPendingInterruptions\": false,\r&para;<br>  \"HasWarningsOrErrors\": false,\r&para;<br>  \"ServerVersion\": null,\r&para;<br>  \"ServerNodeId\": null,\r&para;<br>  \"LogDifferentiationToken\": \"L9B7B4N7P5\",\r&para;<br>  \"AdditionalDescription\": null,\r&para;<br>  \"DurationSeconds\": 0,\r&para;<br>  \"QueueTimeExpiryDateTimeOffset\": \"9999-12-31T23:59:59.9999999+00:00\",\r&para;<br>  \"ProjectId\": null,\r&para;<br>  \"EnvironmentId\": null,\r&para;<br>  \"TenantId\": null,\r&para;<br>  \"ExtendedViewLogPermissions\": [],\r&para;<br>  \"ExtendedCreatePermissions\": [],\r&para;<br>  \"CanRerun\": true,\r&para;<br>  \"Properties\": {}\r&para;<br>}</span>",
   "IdentityEstablishedWith": "Session cookie"
 }

@@ -37,6 +37,7 @@
         "WebAppPool":"webApp",
         "WebSite":"Default Web Site",
         "PreloadEnabled":true,
+        "ServiceAutoStartEnabled":true,
         "EnabledProtocols":[
            "http"
         ],

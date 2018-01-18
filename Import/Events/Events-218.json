@@ -2,29 +2,30 @@
   "$type": "Octopus.Core.Model.Events.Event, Octopus.Core",
   "Id": "Events-218",
   "RelatedDocumentIds": [
-    "Projects-1"
+    "Users-1",
+    "teams-everyone"
   ],
-  "ProjectId": "Projects-1",
+  "ProjectId": null,
   "EnvironmentId": null,
   "TenantId": null,
-  "Category": "Deleted",
-  "UserId": "Users-1",
-  "Username": "admin",
-  "Occurred": "2018-01-15T18:41:13.0220864+00:00",
-  "Message": "ansibleish release 0.0.1 was deleted",
+  "Category": "Modified",
+  "UserId": "users-system",
+  "Username": "system",
+  "Occurred": "2018-01-16T18:26:08.8087394+00:00",
+  "Message": "User admin was added to the team Everyone",
   "MessageReferences": [
     {
-      "ReferencedDocumentId": "Projects-1",
-      "StartIndex": 0,
-      "Length": 10
+      "ReferencedDocumentId": "Users-1",
+      "StartIndex": 5,
+      "Length": 5
     },
     {
-      "ReferencedDocumentId": "NotFound",
-      "StartIndex": 19,
-      "Length": 5
+      "ReferencedDocumentId": "teams-everyone",
+      "StartIndex": 33,
+      "Length": 8
     }
   ],
   "Comments": null,
-  "Details": "<span>{</span><del style=\"background:#ffe6e6;\">\r&para;<br>  \"Id\": \"Releases-2\",\r&para;<br>  \"Version\": \"0.0.1\",\r&para;<br>  \"ReleaseNotes\": null,\r&para;<br>  \"Assembled\": \"2018-01-15T18:10:46.4737886+00:00\",\r&para;<br>  \"ReleaseDefects\": [],\r&para;<br>  \"ProjectId\": \"Projects-1\",\r&para;<br>  \"ProjectVariableSetSnapshotId\": \"variableset-Projects-1-s-0-CBST6\",\r&para;<br>  \"ProjectDeploymentProcessSnapshotId\": \"deploymentprocess-Projects-1-s-4-4YCJL\",\r&para;<br>  \"LibraryVariableSetSnapshots\": [],\r&para;<br>  \"SelectedPackages\": [\r&para;<br>    {\r&para;<br>      \"ActionName\": \"Deploy ansibleish\",\r&para;<br>      \"Version\": \"0.0.1\"\r&para;<br>    }\r&para;<br>  ],\r&para;<br>  \"ChannelId\": \"Channels-1\"\r&para;<br></del><span>}</span>",
-  "IdentityEstablishedWith": "Session cookie"
+  "Details": null,
+  "IdentityEstablishedWith": "Unknown"
 }

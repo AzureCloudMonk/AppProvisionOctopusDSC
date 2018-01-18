@@ -2,37 +2,24 @@
   "$type": "Octopus.Core.Model.Events.Event, Octopus.Core",
   "Id": "Events-90",
   "RelatedDocumentIds": [
-    "Projects-3",
-    "Environments-1",
-    "Channels-3",
-    "ProjectGroups-1"
+    "Environments-1"
   ],
-  "ProjectId": "Projects-3",
+  "ProjectId": null,
   "EnvironmentId": "Environments-1",
   "TenantId": null,
-  "Category": "DeploymentQueued",
+  "Category": "Created",
   "UserId": "Users-1",
   "Username": "admin",
-  "Occurred": "2018-01-15T18:27:46.2079373+00:00",
-  "Message": "Deployed webApp release 0.0.2 to Development",
+  "Occurred": "2018-01-14T12:25:37.4847137+00:00",
+  "Message": "Environment Development was created",
   "MessageReferences": [
     {
-      "ReferencedDocumentId": "Projects-3",
-      "StartIndex": 9,
-      "Length": 6
-    },
-    {
-      "ReferencedDocumentId": "NotFound",
-      "StartIndex": 24,
-      "Length": 5
-    },
-    {
       "ReferencedDocumentId": "Environments-1",
-      "StartIndex": 33,
+      "StartIndex": 12,
       "Length": 11
     }
   ],
   "Comments": null,
-  "Details": null,
+  "Details": "<span>{\r&para;<br>  \"Id\": \"Environments-1\",\r&para;<br>  \"Name\": \"Development\",\r&para;<br>  \"Description\": \"\",\r&para;<br>  \"SortOrder\": 0,\r&para;<br>  \"UseGuidedFailure\": false\r&para;<br>}</span>",
   "IdentityEstablishedWith": "Session cookie"
 }

@@ -1,26 +1,17 @@
 {
   "$type": "Octopus.Core.Model.Events.Event, Octopus.Core",
   "Id": "Events-283",
-  "RelatedDocumentIds": [
-    "Machines-1",
-    "Environments-1"
-  ],
+  "RelatedDocumentIds": [],
   "ProjectId": null,
-  "EnvironmentId": "Environments-1",
+  "EnvironmentId": null,
   "TenantId": null,
-  "Category": "MachineAdded",
+  "Category": "Deleted",
   "UserId": "Users-1",
   "Username": "admin",
-  "Occurred": "2018-01-17T16:41:18.4315123+00:00",
-  "Message": "Machine WEB1 was created (domain-event)",
-  "MessageReferences": [
-    {
-      "ReferencedDocumentId": "Machines-1",
-      "StartIndex": 8,
-      "Length": 4
-    }
-  ],
+  "Occurred": "2018-01-17T23:27:30.4297598+00:00",
+  "Message": "Package webApp version 0.0.1 was deleted from the built-in repository via the Packages API",
+  "MessageReferences": [],
   "Comments": null,
   "Details": null,
-  "IdentityEstablishedWith": "Session cookie"
+  "IdentityEstablishedWith": "Command-line or tools"
 }

@@ -2,24 +2,42 @@
   "$type": "Octopus.Core.Model.Events.Event, Octopus.Core",
   "Id": "Events-170",
   "RelatedDocumentIds": [
-    "feeds-psgallery"
+    "Projects-3",
+    "Environments-1",
+    "Channels-3",
+    "ProjectGroups-1"
   ],
-  "ProjectId": null,
-  "EnvironmentId": null,
+  "ProjectId": "Projects-3",
+  "EnvironmentId": "Environments-1",
   "TenantId": null,
-  "Category": "Created",
-  "UserId": "Users-1",
-  "Username": "admin",
-  "Occurred": "2018-01-14T12:27:27.2207093+00:00",
-  "Message": "NuGetFeed PSGallery was created",
+  "Category": "DeploymentStarted",
+  "UserId": "users-system",
+  "Username": "system",
+  "Occurred": "2018-01-16T17:53:51.4066822+00:00",
+  "Message": "Deploy to Development started  for webApp release 0.0.2 to Development",
   "MessageReferences": [
     {
-      "ReferencedDocumentId": "feeds-psgallery",
-      "StartIndex": 10,
-      "Length": 9
+      "ReferencedDocumentId": "NotFound",
+      "StartIndex": 0,
+      "Length": 21
+    },
+    {
+      "ReferencedDocumentId": "Projects-3",
+      "StartIndex": 35,
+      "Length": 6
+    },
+    {
+      "ReferencedDocumentId": "NotFound",
+      "StartIndex": 50,
+      "Length": 5
+    },
+    {
+      "ReferencedDocumentId": "Environments-1",
+      "StartIndex": 59,
+      "Length": 11
     }
   ],
   "Comments": null,
-  "Details": "<span>{\r&para;<br>  \"DownloadAttempts\": 5,\r&para;<br>  \"DownloadRetryBackoffSeconds\": 10,\r&para;<br>  \"EnhancedMode\": false,\r&para;<br>  \"Id\": \"feeds-psgallery\",\r&para;<br>  \"Name\": \"PSGallery\",\r&para;<br>  \"FeedUri\": \"https://www.powershellgallery.com/api/v2/\",\r&para;<br>  \"Username\": null,\r&para;<br>  \"Password\": null,\r&para;<br>  \"FeedType\": \"NuGet\"\r&para;<br>}</span>",
-  "IdentityEstablishedWith": "Session cookie"
+  "Details": null,
+  "IdentityEstablishedWith": "Unknown"
 }

@@ -10,11 +10,11 @@
   "ProjectId": "Projects-1",
   "EnvironmentId": "Environments-1",
   "TenantId": null,
-  "Category": "DeploymentStarted",
+  "Category": "DeploymentSucceeded",
   "UserId": "users-system",
   "Username": "system",
-  "Occurred": "2018-01-15T18:10:50.4536048+00:00",
-  "Message": "Deploy to Development started  for ansibleish release 0.0.1 to Development",
+  "Occurred": "2018-01-16T17:51:52.7868347+00:00",
+  "Message": "Deploy to Development succeeded  for ansibleish release 0.0.1 to Development",
   "MessageReferences": [
     {
       "ReferencedDocumentId": "NotFound",
@@ -23,17 +23,17 @@
     },
     {
       "ReferencedDocumentId": "Projects-1",
-      "StartIndex": 35,
+      "StartIndex": 37,
       "Length": 10
     },
     {
       "ReferencedDocumentId": "NotFound",
-      "StartIndex": 54,
+      "StartIndex": 56,
       "Length": 5
     },
     {
       "ReferencedDocumentId": "Environments-1",
-      "StartIndex": 63,
+      "StartIndex": 65,
       "Length": 11
     }
   ],
