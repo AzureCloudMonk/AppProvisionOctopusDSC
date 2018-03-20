@@ -22,7 +22,6 @@ git clone https://github.com/Duffney/AppProvisionOctopusDSC.git
 
 ```powershell
 cd AppProvisionOctopusDSC
-New-Item Applications -ItemType Directory
 docker-compose up
 ```
 _Pulling images will take awhile, wait for all containers to be built._

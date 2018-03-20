@@ -1,2 +1,3 @@
 /webApp/webApp.*.nupkg
 applications/*
+!applications/createFolder.txt
