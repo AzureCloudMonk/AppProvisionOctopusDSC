@@ -31,7 +31,7 @@ _Pulling images will take awhile, wait for all containers to be built._
 ```powershell
 $ip =(docker inspect appprovisionoctopusdsc_tentacle_1 | ConvertFrom-Json).NetworkSettings.Networks.nat.IPAddress
 $scriptblock = "Add-Content C:\Windows\System32\drivers\etc\hosts -Value '$ip web1'"
-docker exec appprovisionoctopusdsc_octopus_1 $scriptblock
+docker exec appprovisionoctopusdsc_octopus_1 powershell $scriptblock
 ```
 
 ## Open Octopus UI
