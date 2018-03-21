@@ -1,7 +1,0 @@
-{
-  "$type": "Octopus.Core.Model.Extensions.ExtensionConfiguration, Octopus.Core",
-  "Id": "authentication-googleapps",
-  "Name": "GoogleApps",
-  "ExtensionAuthor": "Octopus Deploy",
-  "Json": null
-}

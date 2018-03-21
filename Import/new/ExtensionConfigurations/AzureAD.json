@@ -1,7 +1,0 @@
-{
-  "$type": "Octopus.Core.Model.Extensions.ExtensionConfiguration, Octopus.Core",
-  "Id": "authentication-aad",
-  "Name": "AzureAD",
-  "ExtensionAuthor": "Octopus Deploy",
-  "Json": null
-}
