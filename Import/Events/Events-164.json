@@ -1,25 +1,17 @@
 {
   "$type": "Octopus.Core.Model.Events.Event, Octopus.Core",
   "Id": "Events-164",
-  "RelatedDocumentIds": [
-    "Projects-1"
-  ],
-  "ProjectId": "Projects-1",
+  "RelatedDocumentIds": [],
+  "ProjectId": null,
   "EnvironmentId": null,
   "TenantId": null,
-  "Category": "Created",
-  "UserId": "Users-1",
-  "Username": "admin",
-  "Occurred": "2018-01-14T13:56:51.0569823+00:00",
-  "Message": "Project ansibleish was created",
-  "MessageReferences": [
-    {
-      "ReferencedDocumentId": "Projects-1",
-      "StartIndex": 8,
-      "Length": 10
-    }
-  ],
+  "Category": "Imported",
+  "UserId": "User Manager",
+  "Username": "ContainerAdministrator",
+  "Occurred": "2018-01-16T19:46:00.4350461+00:00",
+  "Message": "Imported documents using Octopus migration tools",
+  "MessageReferences": [],
   "Comments": null,
-  "Details": "<span>{\r&para;<br>  \"Id\": \"Projects-21\",\r&para;<br>  \"Name\": \"ansibleish\",\r&para;<br>  \"Description\": \"\",\r&para;<br>  \"Slug\": \"ansibleish\",\r&para;<br>  \"IsDisabled\": false,\r&para;<br>  \"VariableSetId\": null,\r&para;<br>  \"DeploymentProcessId\": null,\r&para;<br>  \"ProjectGroupId\": \"ProjectGroups-1\",\r&para;<br>  \"LifecycleId\": \"Lifecycles-1\",\r&para;<br>  \"AutoCreateRelease\": false,\r&para;<br>  \"DiscreteChannelRelease\": false,\r&para;<br>  \"IncludedLibraryVariableSetIds\": [],\r&para;<br>  \"UsedPackages\": [],\r&para;<br>  \"DefaultToSkipIfAlreadyInstalled\": false,\r&para;<br>  \"TenantedDeploymentMode\": \"Untenanted\",\r&para;<br>  \"VersioningStrategy\": {\r&para;<br>    \"DonorPackageStepId\": null,\r&para;<br>    \"Template\": \"#{Octopus.Version.LastMajor}.#{Octopus.Version.LastMinor}.#{Octopus.Version.NextPatch}\"\r&para;<br>  },\r&para;<br>  \"DefaultGuidedFailureMode\": \"EnvironmentDefault\",\r&para;<br>  \"Templates\": [],\r&para;<br>  \"ReleaseCreationStrategy\": {\r&para;<br>    \"ReleaseCreationPackageStepId\": null,\r&para;<br>    \"ChannelId\": null\r&para;<br>  },\r&para;<br>  \"ProjectConnectivityPolicy\": {\r&para;<br>    \"SkipMachineBehavior\": \"None\",\r&para;<br>    \"TargetRoles\": [],\r&para;<br>    \"AllowDeploymentsToNoTargets\": false\r&para;<br>  },\r&para;<br>  \"AutoDeployReleaseOverrides\": []\r&para;<br>}</span>",
-  "IdentityEstablishedWith": "Session cookie"
+  "Details": "  Created.........................................8\r\n    ServerTask....................................8\r\n  Missing dependencies............................1\r\n    Deployment....................................1\r\n  Skipped (incomplete)............................2\r\n    Event.........................................2\r\n  Skipped (no overwrite)..........................576\r\n    ActionTemplate................................2\r\n    ActionTemplateVersion.........................3\r\n    CertificateConfiguration......................1\r\n    Channel.......................................3\r\n    CommunityActionTemplate.......................267\r\n    DeploymentEnvironment.........................1\r\n    DeploymentProcess.............................4\r\n    Event.........................................222\r\n    FeaturesConfiguration.........................1\r\n    Lifecycle.....................................1\r\n    MachinePolicy.................................1\r\n    NuGetFeed.....................................2\r\n    Project.......................................3\r\n    ProjectGroup..................................1\r\n    ServerConfiguration...........................1\r\n    ServerTask....................................44\r\n    SmtpConfiguration.............................1\r\n    Team..........................................2\r\n    User..........................................1\r\n    UserRole......................................11\r\n    VariableSet...................................3\r\n    WebPortalConfiguration........................1\r\n  Unchanged.......................................6\r\n    ExtensionConfiguration........................6\r\n",
+  "IdentityEstablishedWith": "Command-line or tools"
 }

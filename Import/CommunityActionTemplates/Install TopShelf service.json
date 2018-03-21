@@ -4,9 +4,9 @@
   "Name": "Install TopShelf service",
   "ExternalId": "24189509-ae05-434b-9a28-080b81875e10",
   "Description": null,
-  "Version": 2,
+  "Version": 3,
   "ActionType": "Octopus.Script",
-  "Author": "georgiosd",
+  "Author": "sphinxy",
   "Website": "https://library.octopus.com/step-templates/24189509-ae05-434b-9a28-080b81875e10",
   "HistoryUrl": "https://github.com/OctopusDeploy/Library/commits/master/step-templates/topshelf-install.json",
   "Category": "Topshelf",
@@ -14,10 +14,7 @@
     "Octopus.Action.Script.Syntax": "PowerShell",
     "Octopus.Action.Script.ScriptSource": "Inline",
     "Octopus.Action.RunOnServer": "false",
-    "Octopus.Action.Script.ScriptBody": "$step = $OctopusParameters['Unpackage step']\n$username = $OctopusParameters['Username'];\n$password = $OctopusParameters['Password'];\n$exe = $OctopusParameters[\"Octopus.Action[$step].Package.NuGetPackageId\"] + \".exe\"\n\n$outputPath = $OctopusParameters[\"Octopus.Action[$step].Package.CustomInstallationDirectory\"]\nif(!$outputPath) \n{\n    $outputPath = $OctopusParameters[\"Octopus.Action[$step].Output.Package.InstallationDirectoryPath\"]\n}\n\n$path = Join-Path $outputPath $exe\nif(-not (Test-Path $path) )\n{\n    Throw \"$path was not found\"\n}\n\nWrite-Host \"Installing from: $path\"\nif(!$username)\n{\n    Start-Process $path -ArgumentList \"install\" -NoNewWindow -Wait | Write-Host\n} \nelse \n{\n    Start-Process $path -ArgumentList @(\"install\", \"-username\", $username, \"-password\", $password) -NoNewWindow -Wait | Write-Host\n}\nStart-Process $path -ArgumentList \"start\" -NoNewWindow -Wait | Write-Host\n",
-    "Octopus.Action.Script.ScriptFileName": "",
-    "Octopus.Action.Package.FeedId": "",
-    "Octopus.Action.Package.PackageId": ""
+    "Octopus.Action.Script.ScriptBody": "$step = $OctopusParameters['Unpackage step']\n$username = $OctopusParameters['Username'];\n$password = $OctopusParameters['Password'];\n$customExeFilename = $OctopusParameters['Exe filename'];\n\n$outputPath = $OctopusParameters[\"Octopus.Action[$step].Package.CustomInstallationDirectory\"]\nif(!$outputPath) \n{\n    $outputPath = $OctopusParameters[\"Octopus.Action[$step].Output.Package.InstallationDirectoryPath\"]\n}\n\n$defaultExeFilename = $OctopusParameters[\"Octopus.Action[$step].Package.NuGetPackageId\"] + \".exe\"\n$exeFilename = If ($customExeFilename) {$customExeFilename} Else {$defaultExeFilename}\n$path = Join-Path $outputPath $exeFilename\n\nif(-not (Test-Path $path) )\n{\n    Throw \"$path was not found\"\n}\n\nWrite-Host \"Installing from: $path\"\nif(!$username)\n{\n    Start-Process $path -ArgumentList \"install\" -NoNewWindow -Wait | Write-Host\n} \nelse \n{\n    Start-Process $path -ArgumentList @(\"install\", \"-username\", $username, \"-password\", $password) -NoNewWindow -Wait | Write-Host\n}\nStart-Process $path -ArgumentList \"start\" -NoNewWindow -Wait | Write-Host\n"
   },
   "Parameters": [
     {
@@ -48,6 +45,16 @@
       "DefaultValue": "",
       "DisplaySettings": {
         "Octopus.ControlType": "Sensitive"
+      }
+    },
+    {
+      "Id": null,
+      "Name": "Exe filename",
+      "Label": "",
+      "HelpText": "Name of exe file for service, if empty, package Id+\".exe.\" will be used as default",
+      "DefaultValue": "",
+      "DisplaySettings": {
+        "Octopus.ControlType": "SingleLineText"
       }
     }
   ],

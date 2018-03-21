@@ -2,29 +2,25 @@
   "$type": "Octopus.Core.Model.Events.Event, Octopus.Core",
   "Id": "Events-67",
   "RelatedDocumentIds": [
-    "Projects-2"
+    "variableset-Projects-3",
+    "Projects-3"
   ],
-  "ProjectId": "Projects-2",
+  "ProjectId": "Projects-3",
   "EnvironmentId": null,
   "TenantId": null,
-  "Category": "Deleted",
+  "Category": "Modified",
   "UserId": "Users-1",
   "Username": "admin",
-  "Occurred": "2018-01-14T19:30:28.8290885+00:00",
-  "Message": "InvokeDsc release 2.0.92 was deleted",
+  "Occurred": "2018-01-16T17:32:07.0522905+00:00",
+  "Message": "Variables for webApp were changed",
   "MessageReferences": [
     {
-      "ReferencedDocumentId": "Projects-2",
-      "StartIndex": 0,
-      "Length": 9
-    },
-    {
-      "ReferencedDocumentId": "NotFound",
-      "StartIndex": 18,
+      "ReferencedDocumentId": "Projects-3",
+      "StartIndex": 14,
       "Length": 6
     }
   ],
   "Comments": null,
-  "Details": "<span>{</span><del style=\"background:#ffe6e6;\">\r&para;<br>  \"Id\": \"Releases-26\",\r&para;<br>  \"Version\": \"2.0.92\",\r&para;<br>  \"ReleaseNotes\": null,\r&para;<br>  \"Assembled\": \"2018-01-14T19:28:10.1065517+00:00\",\r&para;<br>  \"ReleaseDefects\": [],\r&para;<br>  \"ProjectId\": \"Projects-1\",\r&para;<br>  \"ProjectVariableSetSnapshotId\": \"variableset-Projects-1-s-0-PTVUK\",\r&para;<br>  \"ProjectDeploymentProcessSnapshotId\": \"deploymentprocess-Projects-1-s-6-HPLWR\",\r&para;<br>  \"LibraryVariableSetSnapshots\": [],\r&para;<br>  \"SelectedPackages\": [\r&para;<br>    {\r&para;<br>      \"ActionName\": \"Deploy PackageManagement\",\r&para;<br>      \"Version\": \"1.1.7.0\"\r&para;<br>    },\r&para;<br>    {\r&para;<br>      \"ActionName\": \"Deploy Pester\",\r&para;<br>      \"Version\": \"4.1.1\"\r&para;<br>    },\r&para;<br>    {\r&para;<br>      \"ActionName\": \"Deploy InvokeDsc\",\r&para;<br>      \"Version\": \"2.0.92\"\r&para;<br>    }\r&para;<br>  ],\r&para;<br>  \"ChannelId\": \"Channels-1\"\r&para;<br></del><span>}</span>",
+  "Details": "<span>{\r&para;<br>  \"Id\": \"variableset-Projects-3\",\r&para;<br>  \"OwnerId\": \"Projects-3\",\r&para;<br>  \"V</span><del style=\"background:#ffe6e6;\">ariables\": [</del><ins style=\"background:#e6ffe6;\">ersion\": 1,\r&para;<br>  \"Variables\": [\r&para;<br>    {\r&para;<br>      \"Id\": \"3b835f31-7742-9a70-36ec-84802218f9ad\",\r&para;<br>      \"Name\": \"webAppLogsDestinationPath\",\r&para;<br>      \"Description\": null,\r&para;<br>      \"Type\": \"String\",\r&para;<br>      \"Value\": \"c:\\\\\\\\webApp\\\\\\\\logs\",\r&para;<br>      \"Scope\": {\r&para;<br>        \"Environment\": [\r&para;<br>          \"Environments-1\"\r&para;<br>        ]\r&para;<br>      }\r&para;<br>    },\r&para;<br>    {\r&para;<br>      \"Id\": \"83e473aa-ef44-958a-29e6-28c5f0b7526c\",\r&para;<br>      \"Name\": \"WebAppDestinationPath\",\r&para;<br>      \"Description\": null,\r&para;<br>      \"Type\": \"String\",\r&para;<br>      \"Value\": \"c:\\\\\\\\webApp\",\r&para;<br>      \"Scope\": {\r&para;<br>        \"Environment\": [\r&para;<br>          \"Environments-1\"\r&para;<br>        ]\r&para;<br>      }\r&para;<br>    }\r&para;<br>  </ins><span>],\r&para;<br>  \"RelatedDocumentIds\": [</span><ins style=\"background:#e6ffe6;\">\r&para;<br>    \"Environments-1\"\r&para;<br>  </ins><span>]\r&para;<br>}</span>",
   "IdentityEstablishedWith": "Session cookie"
 }

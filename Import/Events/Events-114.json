@@ -2,7 +2,7 @@
   "$type": "Octopus.Core.Model.Events.Event, Octopus.Core",
   "Id": "Events-114",
   "RelatedDocumentIds": [
-    "feeds-builtin"
+    "Users-1"
   ],
   "ProjectId": null,
   "EnvironmentId": null,
@@ -10,16 +10,16 @@
   "Category": "Created",
   "UserId": "Users-1",
   "Username": "admin",
-  "Occurred": "2018-01-17T15:04:22.8009992+00:00",
-  "Message": "Package webApp version 0.0.1 was pushed to the builtin feed",
+  "Occurred": "2018-01-16T15:21:17.347213+00:00",
+  "Message": "User admin was created using the admin command line",
   "MessageReferences": [
     {
-      "ReferencedDocumentId": "feeds-builtin",
-      "StartIndex": 47,
-      "Length": 7
+      "ReferencedDocumentId": "Users-1",
+      "StartIndex": 5,
+      "Length": 5
     }
   ],
   "Comments": null,
   "Details": null,
-  "IdentityEstablishedWith": "Session cookie"
+  "IdentityEstablishedWith": "Command-line or tools"
 }

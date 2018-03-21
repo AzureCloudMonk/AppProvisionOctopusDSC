@@ -2,29 +2,24 @@
   "$type": "Octopus.Core.Model.Events.Event, Octopus.Core",
   "Id": "Events-36",
   "RelatedDocumentIds": [
-    "Projects-3"
+    "feeds-builtin"
   ],
-  "ProjectId": "Projects-3",
+  "ProjectId": null,
   "EnvironmentId": null,
   "TenantId": null,
-  "Category": "Deleted",
+  "Category": "Created",
   "UserId": "Users-1",
   "Username": "admin",
-  "Occurred": "2018-01-15T18:40:23.9637833+00:00",
-  "Message": "webApp release 0.0.5 was deleted",
+  "Occurred": "2018-01-17T15:04:22.8009992+00:00",
+  "Message": "Package webApp version 0.0.1 was pushed to the builtin feed",
   "MessageReferences": [
     {
-      "ReferencedDocumentId": "Projects-3",
-      "StartIndex": 0,
-      "Length": 6
-    },
-    {
-      "ReferencedDocumentId": "NotFound",
-      "StartIndex": 15,
-      "Length": 5
+      "ReferencedDocumentId": "feeds-builtin",
+      "StartIndex": 47,
+      "Length": 7
     }
   ],
   "Comments": null,
-  "Details": "<span>{</span><del style=\"background:#ffe6e6;\">\r&para;<br>  \"Id\": \"Releases-9\",\r&para;<br>  \"Version\": \"0.0.5\",\r&para;<br>  \"ReleaseNotes\": null,\r&para;<br>  \"Assembled\": \"2018-01-15T18:37:27.1021841+00:00\",\r&para;<br>  \"ReleaseDefects\": [],\r&para;<br>  \"ProjectId\": \"Projects-21\",\r&para;<br>  \"ProjectVariableSetSnapshotId\": \"variableset-Projects-21-s-0-2WR5N\",\r&para;<br>  \"ProjectDeploymentProcessSnapshotId\": \"deploymentprocess-Projects-21-s-9-5VHDM\",\r&para;<br>  \"LibraryVariableSetSnapshots\": [],\r&para;<br>  \"SelectedPackages\": [\r&para;<br>    {\r&para;<br>      \"ActionName\": \"Deploy webApp\",\r&para;<br>      \"Version\": \"0.0.1\"\r&para;<br>    }\r&para;<br>  ],\r&para;<br>  \"ChannelId\": \"Channels-21\"\r&para;<br></del><span>}</span>",
+  "Details": null,
   "IdentityEstablishedWith": "Session cookie"
 }

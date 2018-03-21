@@ -11,7 +11,7 @@
   "Category": "Modified",
   "UserId": "Users-1",
   "Username": "admin",
-  "Occurred": "2018-01-16T18:26:08.8642815+00:00",
+  "Occurred": "2018-01-14T12:23:39.4104829+00:00",
   "Message": "User admin was added to Octopus Administrators using the admin command line",
   "MessageReferences": [
     {
