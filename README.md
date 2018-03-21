@@ -26,6 +26,14 @@ docker-compose up
 ```
 _Pulling images will take awhile, wait for all containers to be built._
 
+## Update OctopusDeploy Host File
+
+```powershell
+$ip =(docker inspect appprovisionoctopusdsc_tentacle_1 | ConvertFrom-Json).NetworkSettings.Networks.nat.IPAddress
+$scriptblock = "Add-Content C:\Windows\System32\drivers\etc\hosts -Value '$ip web1'"
+docker exec appprovisionoctopusdsc_octopus_1 $scriptblock
+```
+
 ## Open Octopus UI
 
 ```powershell
