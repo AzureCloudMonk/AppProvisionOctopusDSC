@@ -12,7 +12,7 @@ services:
       interval: 10s
       retries: 10
   octopus:
-    image: octopusdeploy/octopusdeploy
+    image: octopusdeploy/octopusdeploy:2018.3.6
     environment:
       OctopusAdminUsername: "admin"
       OctopusAdminPassword: "P@ssw0rd"
@@ -27,7 +27,7 @@ services:
       - "./Import:C:/Import"
       - "./Repository:C:/Repository"    
   tentacle:
-    image: octopusdeploy/tentacle
+    image: octopusdeploy/tentacle:3.19.0
     hostname: web1
     depends_on:
       octopus:
