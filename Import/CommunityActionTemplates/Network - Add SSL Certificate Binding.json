@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-139",
+  "Id": "CommunityActionTemplates-147",
   "Name": "Network - Add SSL Certificate Binding",
   "ExternalId": "5a4857cf-dddc-4a08-a32e-8dfe018d986a",
   "Description": "Creates (replaces) an SSL certificate binding to a specific hostname and port using NETSH.",

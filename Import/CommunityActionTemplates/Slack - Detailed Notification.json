@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-190",
+  "Id": "CommunityActionTemplates-199",
   "Name": "Slack - Detailed Notification",
   "ExternalId": "07d64408-ac47-490e-ade2-01bab607ed4f",
   "Description": "Posts deployment status to Slack optionally including additional details (release number, environment name, release notes etc.) as well as error description and link to failure log page.",

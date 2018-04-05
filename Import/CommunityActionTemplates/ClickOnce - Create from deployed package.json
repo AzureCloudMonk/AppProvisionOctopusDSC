@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-32",
+  "Id": "CommunityActionTemplates-38",
   "Name": "ClickOnce - Create from deployed package",
   "ExternalId": "1b7909be-4870-4f81-8957-8357b9342c0f",
   "Description": "Create binaries manifest & CO application and sign them with given code sign certificate ... using mage.exe.",

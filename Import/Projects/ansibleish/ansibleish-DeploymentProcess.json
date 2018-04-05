@@ -9,7 +9,7 @@
       "Name": "Deploy ansibleish",
       "Condition": "Always",
       "StartTrigger": "StartAfterPrevious",
-      "RequiresPackagesToBeAcquired": false,
+      "PackageRequirement": "LetOctopusDecide",
       "Actions": [
         {
           "Id": "786bcd34-77f4-4265-8d7a-ded27369738c",
@@ -39,7 +39,7 @@
       "Name": "Invoke-Playbook",
       "Condition": "Success",
       "StartTrigger": "StartAfterPrevious",
-      "RequiresPackagesToBeAcquired": false,
+      "PackageRequirement": "LetOctopusDecide",
       "Actions": [
         {
           "Id": "7588c39a-dd91-493c-92ea-6f1977d54e94",
@@ -69,5 +69,7 @@
       }
     }
   ],
-  "RelatedDocumentIds": []
+  "RelatedDocumentIds": [
+    "ActionTemplates-2"
+  ]
 }

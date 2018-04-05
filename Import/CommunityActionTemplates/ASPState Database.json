@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-7",
+  "Id": "CommunityActionTemplates-8",
   "Name": "ASPState Database",
   "ExternalId": "c81e85e0-0b72-478e-a776-1c658fe696a1",
   "Description": "This uses the .Net framework aspnet_regsql tool to create an ASPState database using the credentials provided. If the username and password are both empty then it will attempt a trusted connection.",

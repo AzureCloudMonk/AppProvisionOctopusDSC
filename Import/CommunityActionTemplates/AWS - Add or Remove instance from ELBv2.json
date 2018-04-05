@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-8",
+  "Id": "CommunityActionTemplates-9",
   "Name": "AWS - Add or Remove instance from ELBv2",
   "ExternalId": "2abc4f4f-06f4-4af6-8b10-52651ab4d3d5",
   "Description": "Add or Remove the current instance from an ELBv2 Target Group.",

@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-142",
+  "Id": "CommunityActionTemplates-150",
   "Name": "Notification - Spark",
   "ExternalId": "cab1e42d-6b8e-4e3e-980d-82fc8e0e2178",
   "Description": "Send a message to Spark user or room",

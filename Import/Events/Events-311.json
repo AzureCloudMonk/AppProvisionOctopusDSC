@@ -1,26 +1,17 @@
 {
   "$type": "Octopus.Core.Model.Events.Event, Octopus.Core",
   "Id": "Events-311",
-  "RelatedDocumentIds": [
-    "Machines-1",
-    "Environments-1"
-  ],
+  "RelatedDocumentIds": [],
   "ProjectId": null,
-  "EnvironmentId": "Environments-1",
+  "EnvironmentId": null,
   "TenantId": null,
-  "Category": "MachineHasWarnings",
-  "UserId": "users-system",
-  "Username": "system",
-  "Occurred": "2018-03-20T20:50:43.1614424+00:00",
-  "Message": "Machine WEB1 became healthy but has warnings",
-  "MessageReferences": [
-    {
-      "ReferencedDocumentId": "Machines-1",
-      "StartIndex": 8,
-      "Length": 4
-    }
-  ],
+  "Category": "Deleted",
+  "UserId": "Users-1",
+  "Username": "admin",
+  "Occurred": "2018-01-14T19:22:05.098926+00:00",
+  "Message": "Package ansibleish version 0.0.1 was deleted from the built-in repository via the Packages API",
+  "MessageReferences": [],
   "Comments": null,
-  "Details": "Warning: Not running latest version of Calamari. Expected: 4.1.5\r\nWarning: No versions of Calamari are installed.",
-  "IdentityEstablishedWith": "Unknown"
+  "Details": null,
+  "IdentityEstablishedWith": "Command-line or tools"
 }

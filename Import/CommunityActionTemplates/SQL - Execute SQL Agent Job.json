@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-206",
+  "Id": "CommunityActionTemplates-215",
   "Name": "SQL - Execute SQL Agent Job",
   "ExternalId": "7bf5fc6b-9174-48ab-8da5-abf0eeef297a",
   "Description": "Execute a SQL Agent Job and wait for results.",

@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-22",
+  "Id": "CommunityActionTemplates-28",
   "Name": "Azure Blob Storage set CORS Rule",
   "ExternalId": "745fa985-7022-4b19-a788-2fd77aa5b365",
   "Description": "Set a given CORS rule on the specified Azure storage blob container",

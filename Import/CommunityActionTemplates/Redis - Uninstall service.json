@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-172",
+  "Id": "CommunityActionTemplates-181",
   "Name": "Redis - Uninstall service",
   "ExternalId": "959fbb4a-8e2e-4e21-bc55-863837b3cbed",
   "Description": "This step can be used before unpacking a package with Redis service to stop and remove the previous installation, if there is one.",

@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-27",
+  "Id": "CommunityActionTemplates-33",
   "Name": "Chain Deployment",
   "ExternalId": "18392835-d50e-4ce9-9065-8e15a3c30954",
   "Description": "Triggers a deployment of another project in Octopus",

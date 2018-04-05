@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-39",
+  "Id": "CommunityActionTemplates-45",
   "Name": "Configuration - Encrypt App.config Section",
   "ExternalId": "d80a7d9a-8c7b-4aa6-934e-0929bce606fe",
   "Description": "Encrypts configuration sections for the specified executable.",

@@ -8,9 +8,9 @@
   "EnvironmentId": null,
   "TenantId": null,
   "Category": "Created",
-  "UserId": "users-system",
-  "Username": "system",
-  "Occurred": "2018-01-17T23:25:51.6792409+00:00",
+  "UserId": "User Manager\\ContainerAdministrator",
+  "Username": "ContainerAdministrator",
+  "Occurred": "2018-04-05T18:13:50.3430877+00:00",
   "Message": "User admin has been created ",
   "MessageReferences": [
     {
@@ -21,5 +21,5 @@
   ],
   "Comments": null,
   "Details": null,
-  "IdentityEstablishedWith": "Unknown"
+  "IdentityEstablishedWith": "Command line"
 }

@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-11",
+  "Id": "CommunityActionTemplates-16",
   "Name": "AWS - Deregister ELB Instance",
   "ExternalId": "bcb05502-ae9a-48a0-a153-1cb3057efb61",
   "Description": "Removes the current instance from the ELB",

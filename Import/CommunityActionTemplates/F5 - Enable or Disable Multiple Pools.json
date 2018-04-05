@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-61",
+  "Id": "CommunityActionTemplates-69",
   "Name": "F5 - Enable or Disable Multiple Pools",
   "ExternalId": "b3d76f46-e074-47ff-b800-3020c3f47866",
   "Description": "F5 - Enable, Disable, or Force Offline multiple pools with optional wait for connections to drop",

@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-131",
+  "Id": "CommunityActionTemplates-139",
   "Name": "JIRA - Transition Issues",
   "ExternalId": "f0730d85-6ada-44d9-bd95-63b5c236e716",
   "Description": "Transitions JIRA issues as the code they are associated with gets deployed.",

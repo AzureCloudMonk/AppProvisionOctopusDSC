@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-143",
+  "Id": "CommunityActionTemplates-151",
   "Name": "NSSM Windows Service - Create",
   "ExternalId": "fc54e757-fbd9-40b1-98fa-7b2e16c649de",
   "Description": "Create Windows Service using NSSM and powershell script. \n\nVisit https://nssm.cc/usage for more information.\n\nNOTE: This site may be blocked due to .cc domain",

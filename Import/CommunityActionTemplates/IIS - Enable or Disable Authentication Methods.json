@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-98",
+  "Id": "CommunityActionTemplates-106",
   "Name": "IIS - Enable or Disable Authentication Methods",
   "ExternalId": "d3aa2e7b-d716-4f66-8d85-068cacedbb4f",
   "Description": "Step template to set the desired IIS Authentication (Anonymous, Windows, Digest) State for IIS site(s)",

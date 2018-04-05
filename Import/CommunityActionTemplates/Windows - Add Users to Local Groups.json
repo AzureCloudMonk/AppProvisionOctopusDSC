@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-238",
+  "Id": "CommunityActionTemplates-250",
   "Name": "Windows - Add Users to Local Groups",
   "ExternalId": "ed204305-3399-4ffa-8566-a62da4e36641",
   "Description": "Add a list of users to a list of Local Groups",

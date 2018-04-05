@@ -2,37 +2,24 @@
   "$type": "Octopus.Core.Model.Events.Event, Octopus.Core",
   "Id": "Events-215",
   "RelatedDocumentIds": [
-    "Projects-3",
-    "Environments-1",
-    "Channels-3",
-    "ProjectGroups-1"
+    "Users-1"
   ],
-  "ProjectId": "Projects-3",
-  "EnvironmentId": "Environments-1",
+  "ProjectId": null,
+  "EnvironmentId": null,
   "TenantId": null,
-  "Category": "DeploymentQueued",
-  "UserId": "Users-1",
-  "Username": "admin",
-  "Occurred": "2018-01-15T18:37:29.4178064+00:00",
-  "Message": "Deployed webApp release 0.0.5 to Development",
+  "Category": "Created",
+  "UserId": "users-system",
+  "Username": "system",
+  "Occurred": "2018-01-14T12:41:43.7804546+00:00",
+  "Message": "User admin has been created ",
   "MessageReferences": [
     {
-      "ReferencedDocumentId": "Projects-3",
-      "StartIndex": 9,
-      "Length": 6
-    },
-    {
-      "ReferencedDocumentId": "NotFound",
-      "StartIndex": 24,
+      "ReferencedDocumentId": "Users-1",
+      "StartIndex": 5,
       "Length": 5
-    },
-    {
-      "ReferencedDocumentId": "Environments-1",
-      "StartIndex": 33,
-      "Length": 11
     }
   ],
   "Comments": null,
   "Details": null,
-  "IdentityEstablishedWith": "Session cookie"
+  "IdentityEstablishedWith": "Unknown"
 }

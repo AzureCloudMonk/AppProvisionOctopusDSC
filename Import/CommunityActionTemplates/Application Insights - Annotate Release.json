@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-5",
+  "Id": "CommunityActionTemplates-6",
   "Name": "Application Insights - Annotate Release",
   "ExternalId": "c3278ce2-9cdb-46fd-96ce-e1d03ac327fe",
   "Description": "Marks a release point in Application Insights.",

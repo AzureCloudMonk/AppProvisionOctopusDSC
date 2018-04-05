@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-100",
+  "Id": "CommunityActionTemplates-108",
   "Name": "IIS - Reset",
   "ExternalId": "2db9af2b-1d9a-4089-9d84-98d9118b39ad",
   "Description": "Starts, stops, or resets IIS using iisreset",

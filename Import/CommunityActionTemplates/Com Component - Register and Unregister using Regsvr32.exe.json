@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-37",
+  "Id": "CommunityActionTemplates-43",
   "Name": "Com Component - Register and Unregister using Regsvr32.exe",
   "ExternalId": "cf8634b6-313f-4435-bae6-88520c58d81d",
   "Description": "Uses regsvr32.exe to register com components",

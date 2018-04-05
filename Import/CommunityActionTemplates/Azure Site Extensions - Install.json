@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-25",
+  "Id": "CommunityActionTemplates-31",
   "Name": "Azure Site Extensions - Install",
   "ExternalId": "7518eaa0-677c-4562-82d5-a131f29e1744",
   "Description": "Installs an Azure [site extension](https://www.siteextensions.net) in your Azure web app.",

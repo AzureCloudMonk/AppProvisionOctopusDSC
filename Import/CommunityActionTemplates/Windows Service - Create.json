@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-255",
+  "Id": "CommunityActionTemplates-267",
   "Name": "Windows Service - Create",
   "ExternalId": "ba50bddb-67ec-4105-a909-134e73905b03",
   "Description": "Create Windows Service",

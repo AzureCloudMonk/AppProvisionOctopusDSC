@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-205",
+  "Id": "CommunityActionTemplates-214",
   "Name": "SQL - Execute Scripts Ordered",
   "ExternalId": "55aff8d8-61b4-4657-9a00-d002b394790e",
   "Description": "Given a path to a folder containing SQL scripts, this module will execute each script on the database server and catalog provided.  It will execute them in order based on their name.",

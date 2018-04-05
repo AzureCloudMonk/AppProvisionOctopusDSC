@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-204",
+  "Id": "CommunityActionTemplates-213",
   "Name": "SQL - Execute Script",
   "ExternalId": "73f89638-51d1-4fbb-b68f-b71ba9e86720",
   "Description": "Execute a SQL script",

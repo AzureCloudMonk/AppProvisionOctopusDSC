@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-28",
+  "Id": "CommunityActionTemplates-34",
   "Name": "Chocolatey - Ensure Installed",
   "ExternalId": "c364b0a5-a0b7-48f8-a1a4-35e9f54a82d3",
   "Description": "Ensures that the Chocolatey package manager is installed on the system. The installer is downloaded from https://chocolatey.org if required.",

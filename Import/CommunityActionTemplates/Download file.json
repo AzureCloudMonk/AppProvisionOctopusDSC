@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-53",
+  "Id": "CommunityActionTemplates-61",
   "Name": "Download file",
   "ExternalId": "f444ca63-a73c-4878-955e-96b508f9e883",
   "Description": "Downloads a file from the internet to the local machine.",

@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-284",
+  "Id": "CommunityActionTemplates-12",
   "Name": "AWS - Create a Route 53 Resource Record",
   "ExternalId": "9271327d-6e8a-49d1-881a-3925c75aef56",
   "Description": "This step will Update, Create or Delete a Resource Record from an Route 53 hosted Domain Name.\n\nWorks well with the \"_AWS - Launch EC2 Instance_\" Community Step Template.\n\n[AWS Tools for Windows PowerShell](http://aws.amazon.com/powershell/) must be installed on the Server/Target you plan on running this step template on.",

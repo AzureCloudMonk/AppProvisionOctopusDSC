@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-281",
+  "Id": "CommunityActionTemplates-3",
   "Name": "Amazon Chime - Post Message",
   "ExternalId": "6042d737-5902-0729-ae57-8b6650a299da",
   "Description": "Posts a message to a Chime chat room using webhooks.",

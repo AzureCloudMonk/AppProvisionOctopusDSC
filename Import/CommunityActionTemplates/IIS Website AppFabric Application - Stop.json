@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-128",
+  "Id": "CommunityActionTemplates-136",
   "Name": "IIS Website AppFabric Application - Stop",
   "ExternalId": "bf1f9d1d-3200-4ae6-bab1-12e42aa829e6",
   "Description": "Stops an AppFabric application in IIS.",

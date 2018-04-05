@@ -9,7 +9,7 @@
       "Name": "Deploy webApp",
       "Condition": "Always",
       "StartTrigger": "StartAfterPrevious",
-      "RequiresPackagesToBeAcquired": false,
+      "PackageRequirement": "LetOctopusDecide",
       "Actions": [
         {
           "Id": "b8a3376f-99fa-4336-8bb9-e44900eda294",
@@ -41,7 +41,7 @@
       "Name": "Invoke-DscAppConfig",
       "Condition": "Success",
       "StartTrigger": "StartAfterPrevious",
-      "RequiresPackagesToBeAcquired": false,
+      "PackageRequirement": "LetOctopusDecide",
       "Actions": [
         {
           "Id": "5b885aa0-673b-4128-9984-c577eb99aa8b",
@@ -73,7 +73,7 @@
       "Name": "Deploy Web Application",
       "Condition": "Success",
       "StartTrigger": "StartAfterPrevious",
-      "RequiresPackagesToBeAcquired": false,
+      "PackageRequirement": "LetOctopusDecide",
       "Actions": [
         {
           "Id": "7c0911b7-04b1-4334-838b-26da0451d3f6",
@@ -97,5 +97,7 @@
       }
     }
   ],
-  "RelatedDocumentIds": []
+  "RelatedDocumentIds": [
+    "ActionTemplates-1"
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-289",
+  "Id": "CommunityActionTemplates-153",
   "Name": "Octopus - Wait for Deployment Target registration",
   "ExternalId": "dc573fd6-92be-46fa-aab1-861adcd37d82",
   "Description": "This step will poll Octopus Deploy until it detects that the expected Deployment Target has been registered.\n\nThe goal being that a deployment will be paused until the expected Deployment Target is available (eg [Transient Targets](https://octopus.com/docs/infrastructure/environments/elastic-and-transient-environments/deploying-to-transient-targets)). On subsequent deploys, the Deployment Target would quickly be identified as registered, and the deployment would continue as expected.\n\nWith a couple of extra step templates you can:\n- Create a new EC2 Instance (_AWS - Launch EC2 Instance_)\n- Include the new Deployment Target in subsequent deployment steps (_Health Check_)",

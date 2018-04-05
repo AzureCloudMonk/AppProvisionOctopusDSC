@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-214",
+  "Id": "CommunityActionTemplates-223",
   "Name": "SSRS Report Backup",
   "ExternalId": "69c9eb25-9005-47c3-abb6-032e2ef909e3",
   "Description": "Automatically performs a back up of all SSRS reports on an SSRS Server.",

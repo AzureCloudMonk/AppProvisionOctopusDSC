@@ -2,25 +2,29 @@
   "$type": "Octopus.Core.Model.Events.Event, Octopus.Core",
   "Id": "Events-305",
   "RelatedDocumentIds": [
-    "Machines-1",
-    "Environments-1"
+    "Projects-3"
   ],
-  "ProjectId": null,
-  "EnvironmentId": "Environments-1",
+  "ProjectId": "Projects-3",
+  "EnvironmentId": null,
   "TenantId": null,
-  "Category": "MachineUnavailable",
-  "UserId": "users-system",
-  "Username": "system",
-  "Occurred": "2018-03-20T20:46:21.8269944+00:00",
-  "Message": "Machine WEB1 became unavailable",
+  "Category": "Created",
+  "UserId": "Users-1",
+  "Username": "admin",
+  "Occurred": "2018-01-16T17:52:12.400229+00:00",
+  "Message": "webApp release 0.0.1 was created",
   "MessageReferences": [
     {
-      "ReferencedDocumentId": "Machines-1",
-      "StartIndex": 8,
-      "Length": 4
+      "ReferencedDocumentId": "Projects-3",
+      "StartIndex": 0,
+      "Length": 6
+    },
+    {
+      "ReferencedDocumentId": "NotFound",
+      "StartIndex": 15,
+      "Length": 5
     }
   ],
   "Comments": null,
-  "Details": "An error occurred when sending a request to 'https://web1:10933/', before the request could begin: The client was unable to establish the initial connection within 00:01:00\r\nThe client was unable to establish the initial connection within 00:01:00",
-  "IdentityEstablishedWith": "Unknown"
+  "Details": "<span>{\r&para;<br>  \"Id\": \"Releases-3\",\r&para;<br>  \"Version\": \"0.0.1\",\r&para;<br>  \"ReleaseNotes\": null,\r&para;<br>  \"Assembled\": \"2018-01-16T17:52:12.3640245+00:00\",\r&para;<br>  \"ReleaseDefects\": [],\r&para;<br>  \"ProjectId\": \"Projects-3\",\r&para;<br>  \"ProjectVariableSetSnapshotId\": \"variableset-Projects-3-s-2-B8QGV\",\r&para;<br>  \"ProjectDeploymentProcessSnapshotId\": \"deploymentprocess-Projects-3-s-10-26H4J\",\r&para;<br>  \"LibraryVariableSetSnapshots\": [],\r&para;<br>  \"SelectedPackages\": [\r&para;<br>    {\r&para;<br>      \"ActionName\": \"Deploy webApp\",\r&para;<br>      \"Version\": \"0.0.1\"\r&para;<br>    }\r&para;<br>  ],\r&para;<br>  \"ChannelId\": \"Channels-3\"\r&para;<br>}</span>",
+  "IdentityEstablishedWith": "Session cookie"
 }

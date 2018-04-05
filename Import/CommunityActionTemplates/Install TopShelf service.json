@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-129",
+  "Id": "CommunityActionTemplates-137",
   "Name": "Install TopShelf service",
   "ExternalId": "24189509-ae05-434b-9a28-080b81875e10",
   "Description": null,

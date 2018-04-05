@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-76",
+  "Id": "CommunityActionTemplates-84",
   "Name": "File System - Rename File",
   "ExternalId": "5ca37bfb-ebbc-4b4c-ab1e-06d462e7f910",
   "Description": "Renames a file on the file system.",

@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-130",
+  "Id": "CommunityActionTemplates-138",
   "Name": "Jenkins - Queue Job",
   "ExternalId": "ccb7ad4c-a19e-426f-822e-cd0e0243bda3",
   "Description": "Trigger a job in Jenkins",

@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-175",
+  "Id": "CommunityActionTemplates-184",
   "Name": "Remove Server From Azure Load Balancer",
   "ExternalId": "5658d525-2a04-47da-85a0-00244976d811",
   "Description": "Uses Service Principal to Remove Server From Azure Load Balancer.",

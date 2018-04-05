@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-84",
+  "Id": "CommunityActionTemplates-92",
   "Name": "Grant SeServiceLogonRight To Account",
   "ExternalId": "0e295d12-cc29-4f61-9eb1-dac387697d5c",
   "Description": "Grants `SeServiceLogonRight` to Windows account",

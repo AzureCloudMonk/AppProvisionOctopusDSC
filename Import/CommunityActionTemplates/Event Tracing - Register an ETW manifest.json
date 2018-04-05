@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-57",
+  "Id": "CommunityActionTemplates-65",
   "Name": "Event Tracing - Register an ETW manifest",
   "ExternalId": "2b7e3987-0da0-4a5d-bb60-c190b433d888",
   "Description": "Registers an ETW manifest",

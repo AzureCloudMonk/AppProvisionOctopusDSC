@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-81",
+  "Id": "CommunityActionTemplates-89",
   "Name": "Git - Pull (HTTPS)",
   "ExternalId": "5c08170d-e919-4afe-9da3-7616c797d42b",
   "Description": "Gets the latest source for a Git repository.",

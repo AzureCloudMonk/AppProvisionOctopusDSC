@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-283",
+  "Id": "CommunityActionTemplates-11",
   "Name": "AWS - Change EC2 Instance State",
   "ExternalId": "302a1282-c139-4e0f-9076-cd4b16d8b795",
   "Description": "This step can Start, Stop or Terminate an EC2 instance.\n\nWorks well with the \"_AWS - Launch EC2 Instance_\" Community Step Template.\n\n[AWS Tools for Windows PowerShell](http://aws.amazon.com/powershell/) must be installed on the Server/Target you plan on running this step template on.",

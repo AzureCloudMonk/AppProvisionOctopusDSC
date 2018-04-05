@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-88",
+  "Id": "CommunityActionTemplates-96",
   "Name": "HockeyApp - Upload Mobile App",
   "ExternalId": "5667710e-60b8-4067-bfa5-87196faafdda",
   "Description": "This script uploads a new version of an existing app package to the [HockeyApp](http://hockeyapp.net/features/) services.",

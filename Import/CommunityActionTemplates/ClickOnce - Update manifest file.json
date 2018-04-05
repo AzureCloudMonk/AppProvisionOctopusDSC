@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-35",
+  "Id": "CommunityActionTemplates-41",
   "Name": "ClickOnce - Update manifest file",
   "ExternalId": "f52ace18-b8ee-4235-9c6f-231f2ec477a6",
   "Description": "Update manifest file after changing the configuration files of the ClickOnce application.",

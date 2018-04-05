@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-224",
+  "Id": "CommunityActionTemplates-236",
   "Name": "Unzip",
   "ExternalId": "d2f144e7-e998-4229-ab7c-1013865070d5",
   "Description": "Unzip file",

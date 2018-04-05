@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-292",
+  "Id": "CommunityActionTemplates-229",
   "Name": "Tag TeamCity Build Version",
   "ExternalId": "aabf7d20-579f-4e6f-af5f-14e0d87b1258",
   "Description": "Try to tag the TeamCity build version and dependencies\n(Requires Octopus version to match TeamCity version)",

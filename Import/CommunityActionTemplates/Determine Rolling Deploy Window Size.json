@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-51",
+  "Id": "CommunityActionTemplates-59",
   "Name": "Determine Rolling Deploy Window Size",
   "ExternalId": "cb1b825e-d945-43e4-a572-d945654ca9cc",
   "Description": "Determine Window Size for Rolling Deploy.",

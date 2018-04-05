@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-74",
+  "Id": "CommunityActionTemplates-82",
   "Name": "File System - Grant Permissions",
   "ExternalId": "b77d55ae-7f54-45ab-ba57-7afff97c93a2",
   "Description": "Grant read, write and modify permissions to folders or files",

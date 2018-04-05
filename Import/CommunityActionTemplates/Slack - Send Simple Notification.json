@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-192",
+  "Id": "CommunityActionTemplates-201",
   "Name": "Slack - Send Simple Notification",
   "ExternalId": "99e6f203-3061-4018-9e34-4a3a9c3c3179",
   "Description": "Send a basic message notification to Slack.",

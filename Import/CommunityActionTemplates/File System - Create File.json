@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-69",
+  "Id": "CommunityActionTemplates-77",
   "Name": "File System - Create File",
   "ExternalId": "175a91a9-562e-49b9-bfa6-609a4e16bc56",
   "Description": "Creates a file, using the full path that is provided.",

@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-36",
+  "Id": "CommunityActionTemplates-42",
   "Name": "ClickOnceRe-Sign",
   "ExternalId": "a9e5843e-d382-44fd-84dd-d999dab54993",
   "Description": "This Template will help to re-sign the .application and manifest files. Finally add .deploy extenstion to the files",

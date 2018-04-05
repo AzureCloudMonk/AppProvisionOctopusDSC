@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-208",
+  "Id": "CommunityActionTemplates-217",
   "Name": "SQL - Restore Database",
   "ExternalId": "469b6d9d-761a-4f94-9745-20e9c2f93841",
   "Description": "Restore a MS SQL Server database to the file system.",

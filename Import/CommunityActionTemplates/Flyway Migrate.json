@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-79",
+  "Id": "CommunityActionTemplates-87",
   "Name": "Flyway Migrate",
   "ExternalId": "3868c17c-8471-4805-89be-e99513afd59a",
   "Description": "Deploy a database using Flyway",

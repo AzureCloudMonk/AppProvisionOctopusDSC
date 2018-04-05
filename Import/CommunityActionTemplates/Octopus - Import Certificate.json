@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-144",
+  "Id": "CommunityActionTemplates-152",
   "Name": "Octopus - Import Certificate",
   "ExternalId": "3b1f6c62-c2cb-480b-9b14-435686b9f2cc",
   "Description": "Create or replace an [Octopus Certificate](https://octopus.com/docs/deploying-applications/certificates) from a certificate file",

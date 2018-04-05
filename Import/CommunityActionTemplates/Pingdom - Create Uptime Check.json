@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-150",
+  "Id": "CommunityActionTemplates-159",
   "Name": "Pingdom - Create Uptime Check",
   "ExternalId": "70ea4820-7d02-4015-a691-8c77b5ab14d5",
   "Description": "Creates Pingdom http check using [Create New Check API method](https://www.pingdom.com/resources/api#MethodCreate+New+Check).",

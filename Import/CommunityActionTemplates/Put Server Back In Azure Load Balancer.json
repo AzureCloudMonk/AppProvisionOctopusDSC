@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-155",
+  "Id": "CommunityActionTemplates-164",
   "Name": "Put Server Back In Azure Load Balancer",
   "ExternalId": "540de6f6-f1c6-4e1c-9062-9e78570074f6",
   "Description": "Uses Service Principal to Put Server Back In Azure Load Balancer.",

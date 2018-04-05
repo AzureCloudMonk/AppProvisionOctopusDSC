@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-291",
+  "Id": "CommunityActionTemplates-228",
   "Name": "Switch Azure Staging Deployment Slot",
   "ExternalId": "7c39a530-6d16-4294-8ff5-74663ea13131",
   "Description": "This template will warm up your deployment slot then swap it with production. This step template should be placed after \"\"Deploy an Azure Web App\" Octopus Deploy template and be used with its sister step \"Create Azure RM Deployment Slot\"\n\nThis should be used for green-blue deployments, as referenced in this document: https://octopus.com/docs/deploying-applications/deploying-to-azure/deploying-a-package-to-an-azure-web-app/using-deployment-slots-with-azure-web-apps",

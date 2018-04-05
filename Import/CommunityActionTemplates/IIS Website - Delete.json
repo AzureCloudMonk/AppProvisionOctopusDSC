@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-118",
+  "Id": "CommunityActionTemplates-126",
   "Name": "IIS Website - Delete",
   "ExternalId": "a032159b-0742-4982-95f4-59877a31fba3",
   "Description": "Deletes a website in IIS.",

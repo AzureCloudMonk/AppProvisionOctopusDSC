@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-23",
+  "Id": "CommunityActionTemplates-29",
   "Name": "Azure Blob Storage Upload",
   "ExternalId": "0b167d34-832e-4c96-8a8f-2ea0a6c0fe0c",
   "Description": "Upload files in a directory to a specified Azure Storage blob container.",

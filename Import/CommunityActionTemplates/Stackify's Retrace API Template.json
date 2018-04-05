@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-290",
+  "Id": "CommunityActionTemplates-224",
   "Name": "Stackify's Retrace API Template",
   "ExternalId": "e28b6898-c336-47b0-bfe0-6158c846ef94",
   "Description": "Notify Retrace about the status of your deployment via this script.",

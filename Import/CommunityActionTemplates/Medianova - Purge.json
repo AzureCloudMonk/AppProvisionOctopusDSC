@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-135",
+  "Id": "CommunityActionTemplates-143",
   "Name": "Medianova - Purge",
   "ExternalId": "dce70842-466e-4ae7-acd4-9aa18bfac065",
   "Description": "Allows to purge content using Medianova CDN Purge App",

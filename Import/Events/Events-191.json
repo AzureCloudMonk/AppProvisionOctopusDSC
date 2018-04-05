@@ -2,29 +2,42 @@
   "$type": "Octopus.Core.Model.Events.Event, Octopus.Core",
   "Id": "Events-191",
   "RelatedDocumentIds": [
-    "Projects-3"
+    "Projects-2",
+    "Environments-1",
+    "Channels-2",
+    "ProjectGroups-1"
   ],
-  "ProjectId": "Projects-3",
-  "EnvironmentId": null,
+  "ProjectId": "Projects-2",
+  "EnvironmentId": "Environments-1",
   "TenantId": null,
-  "Category": "Created",
-  "UserId": "Users-1",
-  "Username": "admin",
-  "Occurred": "2018-01-15T18:27:43.5671055+00:00",
-  "Message": "webApp release 0.0.2 was created",
+  "Category": "DeploymentStarted",
+  "UserId": "users-system",
+  "Username": "system",
+  "Occurred": "2018-01-14T19:28:12.9645606+00:00",
+  "Message": "Deploy to Development started  for InvokeDsc release 2.0.92 to Development",
   "MessageReferences": [
     {
-      "ReferencedDocumentId": "Projects-3",
+      "ReferencedDocumentId": "NotFound",
       "StartIndex": 0,
-      "Length": 6
+      "Length": 21
+    },
+    {
+      "ReferencedDocumentId": "Projects-2",
+      "StartIndex": 35,
+      "Length": 9
     },
     {
       "ReferencedDocumentId": "NotFound",
-      "StartIndex": 15,
-      "Length": 5
+      "StartIndex": 53,
+      "Length": 6
+    },
+    {
+      "ReferencedDocumentId": "Environments-1",
+      "StartIndex": 63,
+      "Length": 11
     }
   ],
   "Comments": null,
-  "Details": "<span>{\r&para;<br>  \"Id\": \"Releases-6\",\r&para;<br>  \"Version\": \"0.0.2\",\r&para;<br>  \"ReleaseNotes\": null,\r&para;<br>  \"Assembled\": \"2018-01-15T18:27:43.5474796+00:00\",\r&para;<br>  \"ReleaseDefects\": [],\r&para;<br>  \"ProjectId\": \"Projects-21\",\r&para;<br>  \"ProjectVariableSetSnapshotId\": \"variableset-Projects-21-s-0-2WR5N\",\r&para;<br>  \"ProjectDeploymentProcessSnapshotId\": \"deploymentprocess-Projects-21-s-5-C7S4H\",\r&para;<br>  \"LibraryVariableSetSnapshots\": [],\r&para;<br>  \"SelectedPackages\": [\r&para;<br>    {\r&para;<br>      \"ActionName\": \"Deploy webApp\",\r&para;<br>      \"Version\": \"0.0.1\"\r&para;<br>    }\r&para;<br>  ],\r&para;<br>  \"ChannelId\": \"Channels-21\"\r&para;<br>}</span>",
-  "IdentityEstablishedWith": "Session cookie"
+  "Details": null,
+  "IdentityEstablishedWith": "Unknown"
 }

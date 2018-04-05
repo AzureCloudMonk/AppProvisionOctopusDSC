@@ -1,25 +1,17 @@
 {
   "$type": "Octopus.Core.Model.Events.Event, Octopus.Core",
   "Id": "Events-57",
-  "RelatedDocumentIds": [
-    "Environments-1"
-  ],
+  "RelatedDocumentIds": [],
   "ProjectId": null,
-  "EnvironmentId": "Environments-1",
+  "EnvironmentId": null,
   "TenantId": null,
-  "Category": "Deleted",
-  "UserId": "Users-1",
-  "Username": "admin",
-  "Occurred": "2018-01-14T13:04:16.7705336+00:00",
-  "Message": "Machine D06CEEB923A1 was deleted",
-  "MessageReferences": [
-    {
-      "ReferencedDocumentId": "NotFound",
-      "StartIndex": 8,
-      "Length": 12
-    }
-  ],
+  "Category": "Imported",
+  "UserId": "User Manager",
+  "Username": "ContainerAdministrator",
+  "Occurred": "2018-01-17T16:40:24.1980838+00:00",
+  "Message": "Imported documents using Octopus migration tools",
+  "MessageReferences": [],
   "Comments": null,
-  "Details": "<span>{</span><del style=\"background:#ffe6e6;\">\r&para;<br>  \"Id\": \"Machines-1\",\r&para;<br>  \"Name\": \"D06CEEB923A1\",\r&para;<br>  \"Endpoint\": {\r&para;<br>    \"$type\": \"Octopus.Core.Model.Environments.Endpoints.ListeningTentacleEndpoint, Octopus.Core\",\r&para;<br>    \"ProxyId\": null,\r&para;<br>    \"Thumbprint\": \"1F345969657B6F2A803CE486EF72F49CE4E65638\",\r&para;<br>    \"Uri\": \"https://d06ceeb923a1:10933/\",\r&para;<br>    \"UpgradeLocked\": false\r&para;<br>  },\r&para;<br>  \"IsDisabled\": false,\r&para;<br>  \"Roles\": [\r&para;<br>    \"web-server\"\r&para;<br>  ],\r&para;<br>  \"EnvironmentIds\": [\r&para;<br>    \"Environments-1\"\r&para;<br>  ],\r&para;<br>  \"TenantedDeploymentParticipation\": \"Untenanted\",\r&para;<br>  \"TenantIds\": [],\r&para;<br>  \"TenantTags\": [],\r&para;<br>  \"MachinePolicyId\": \"MachinePolicies-1\"\r&para;<br></del><span>}</span>",
-  "IdentityEstablishedWith": "Session cookie"
+  "Details": "  Created.........................................853\r\n    ActionTemplate................................2\r\n    ActionTemplateVersion.........................3\r\n    Attachment....................................267\r\n    Channel.......................................3\r\n    CommunityActionTemplate.......................267\r\n    DeploymentEnvironment.........................1\r\n    DeploymentProcess.............................4\r\n    Event.........................................243\r\n    NuGetFeed.....................................1\r\n    Project.......................................3\r\n    ServerTask....................................56\r\n    VariableSet...................................3\r\n  Missing dependencies............................3\r\n    Deployment....................................2\r\n    ServerTask....................................1\r\n  Skipped (incomplete)............................2\r\n    Event.........................................2\r\n  Skipped (key collision).........................24\r\n    Event.........................................10\r\n    ServerTask....................................14\r\n  Skipped (no overwrite)..........................23\r\n    CertificateConfiguration......................1\r\n    FeaturesConfiguration.........................1\r\n    Lifecycle.....................................1\r\n    MachinePolicy.................................1\r\n    NuGetFeed.....................................1\r\n    ProjectGroup..................................1\r\n    ServerConfiguration...........................1\r\n    SmtpConfiguration.............................1\r\n    Team..........................................2\r\n    User..........................................1\r\n    UserRole......................................11\r\n    WebPortalConfiguration........................1\r\n  Unchanged.......................................6\r\n    ExtensionConfiguration........................6\r\n",
+  "IdentityEstablishedWith": "Command-line or tools"
 }

@@ -2,27 +2,39 @@
   "$type": "Octopus.Core.Model.Events.Event, Octopus.Core",
   "Id": "Events-140",
   "RelatedDocumentIds": [
-    "Users-1",
-    "teams-everyone"
+    "Projects-3",
+    "Environments-1",
+    "Channels-3",
+    "ProjectGroups-1"
   ],
-  "ProjectId": null,
-  "EnvironmentId": null,
+  "ProjectId": "Projects-3",
+  "EnvironmentId": "Environments-1",
   "TenantId": null,
-  "Category": "Modified",
+  "Category": "DeploymentFailed",
   "UserId": "users-system",
   "Username": "system",
-  "Occurred": "2018-01-16T18:26:08.8087394+00:00",
-  "Message": "User admin was added to the team Everyone",
+  "Occurred": "2018-01-15T18:32:29.378746+00:00",
+  "Message": "Deploy to Development failed  for webApp release 0.0.3 to Development",
   "MessageReferences": [
     {
-      "ReferencedDocumentId": "Users-1",
-      "StartIndex": 5,
+      "ReferencedDocumentId": "NotFound",
+      "StartIndex": 0,
+      "Length": 21
+    },
+    {
+      "ReferencedDocumentId": "Projects-3",
+      "StartIndex": 34,
+      "Length": 6
+    },
+    {
+      "ReferencedDocumentId": "NotFound",
+      "StartIndex": 49,
       "Length": 5
     },
     {
-      "ReferencedDocumentId": "teams-everyone",
-      "StartIndex": 33,
-      "Length": 8
+      "ReferencedDocumentId": "Environments-1",
+      "StartIndex": 58,
+      "Length": 11
     }
   ],
   "Comments": null,

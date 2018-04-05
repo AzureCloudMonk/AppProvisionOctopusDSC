@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-54",
+  "Id": "CommunityActionTemplates-62",
   "Name": "DSC Windows Service",
   "ExternalId": "1cdf63ce-50c8-45a8-cce2-f6ca2d6d617b",
   "Description": "Starts/stops one or more services asynchronously, and then waits for them to align to the specified state",

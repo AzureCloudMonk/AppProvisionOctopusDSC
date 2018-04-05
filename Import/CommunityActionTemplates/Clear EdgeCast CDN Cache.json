@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-30",
+  "Id": "CommunityActionTemplates-36",
   "Name": "Clear EdgeCast CDN Cache",
   "ExternalId": "d97ff2d4-250a-4a1a-bd5e-36644893888c",
   "Description": "This step will clear (purge) the EdgeCast CDN Cache",

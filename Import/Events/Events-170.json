@@ -2,29 +2,29 @@
   "$type": "Octopus.Core.Model.Events.Event, Octopus.Core",
   "Id": "Events-170",
   "RelatedDocumentIds": [
-    "Projects-3"
+    "Projects-2"
   ],
-  "ProjectId": "Projects-3",
+  "ProjectId": "Projects-2",
   "EnvironmentId": null,
   "TenantId": null,
-  "Category": "Created",
+  "Category": "Deleted",
   "UserId": "Users-1",
   "Username": "admin",
-  "Occurred": "2018-01-15T18:16:19.8480753+00:00",
-  "Message": "webApp release 0.0.1 was created",
+  "Occurred": "2018-01-15T18:41:03.0686101+00:00",
+  "Message": "InvokeDsc release 2.0.92 was deleted",
   "MessageReferences": [
     {
-      "ReferencedDocumentId": "Projects-3",
+      "ReferencedDocumentId": "Projects-2",
       "StartIndex": 0,
-      "Length": 6
+      "Length": 9
     },
     {
       "ReferencedDocumentId": "NotFound",
-      "StartIndex": 15,
-      "Length": 5
+      "StartIndex": 18,
+      "Length": 6
     }
   ],
   "Comments": null,
-  "Details": "<span>{\r&para;<br>  \"Id\": \"Releases-3\",\r&para;<br>  \"Version\": \"0.0.1\",\r&para;<br>  \"ReleaseNotes\": null,\r&para;<br>  \"Assembled\": \"2018-01-15T18:16:19.7935897+00:00\",\r&para;<br>  \"ReleaseDefects\": [],\r&para;<br>  \"ProjectId\": \"Projects-21\",\r&para;<br>  \"ProjectVariableSetSnapshotId\": \"variableset-Projects-21-s-0-UC273\",\r&para;<br>  \"ProjectDeploymentProcessSnapshotId\": \"deploymentprocess-Projects-21-s-3-KWQFY\",\r&para;<br>  \"LibraryVariableSetSnapshots\": [],\r&para;<br>  \"SelectedPackages\": [\r&para;<br>    {\r&para;<br>      \"ActionName\": \"Deploy webApp\",\r&para;<br>      \"Version\": \"0.0.1\"\r&para;<br>    }\r&para;<br>  ],\r&para;<br>  \"ChannelId\": \"Channels-21\"\r&para;<br>}</span>",
+  "Details": "<span>{</span><del style=\"background:#ffe6e6;\">\r&para;<br>  \"Id\": \"Releases-1\",\r&para;<br>  \"Version\": \"2.0.92\",\r&para;<br>  \"ReleaseNotes\": null,\r&para;<br>  \"Assembled\": \"2018-01-15T18:07:37.4825715+00:00\",\r&para;<br>  \"ReleaseDefects\": [],\r&para;<br>  \"ProjectId\": \"Projects-2\",\r&para;<br>  \"ProjectVariableSetSnapshotId\": \"variableset-Projects-2-s-0-WRFKW\",\r&para;<br>  \"ProjectDeploymentProcessSnapshotId\": \"deploymentprocess-Projects-2-s-8-ZD4HH\",\r&para;<br>  \"LibraryVariableSetSnapshots\": [],\r&para;<br>  \"SelectedPackages\": [\r&para;<br>    {\r&para;<br>      \"ActionName\": \"Deploy PackageManagement\",\r&para;<br>      \"Version\": \"1.1.7.0\"\r&para;<br>    },\r&para;<br>    {\r&para;<br>      \"ActionName\": \"Deploy Pester\",\r&para;<br>      \"Version\": \"4.1.1\"\r&para;<br>    },\r&para;<br>    {\r&para;<br>      \"ActionName\": \"Deploy InvokeDsc\",\r&para;<br>      \"Version\": \"2.0.92\"\r&para;<br>    }\r&para;<br>  ],\r&para;<br>  \"ChannelId\": \"Channels-2\"\r&para;<br></del><span>}</span>",
   "IdentityEstablishedWith": "Session cookie"
 }

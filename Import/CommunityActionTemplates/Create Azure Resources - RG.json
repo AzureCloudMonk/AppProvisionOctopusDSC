@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-45",
+  "Id": "CommunityActionTemplates-49",
   "Name": "Create Azure Resources - RG",
   "ExternalId": "7ae25451-366d-49cc-a49d-eba03d147db0",
   "Description": "The New-AzureRmResourceGroup cmdlet creates an Azure resource group",

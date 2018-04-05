@@ -10,34 +10,29 @@
   "ProjectId": "Projects-2",
   "EnvironmentId": "Environments-1",
   "TenantId": null,
-  "Category": "DeploymentStarted",
-  "UserId": "users-system",
-  "Username": "system",
-  "Occurred": "2018-01-16T17:43:25.2465566+00:00",
-  "Message": "Deploy to Development started  for InvokeDsc release 2.0.92 to Development",
+  "Category": "DeploymentQueued",
+  "UserId": "Users-1",
+  "Username": "admin",
+  "Occurred": "2018-01-14T19:15:25.7093344+00:00",
+  "Message": "Deployed InvokeDsc release 2.0.92 to Development",
   "MessageReferences": [
     {
-      "ReferencedDocumentId": "NotFound",
-      "StartIndex": 0,
-      "Length": 21
-    },
-    {
       "ReferencedDocumentId": "Projects-2",
-      "StartIndex": 35,
+      "StartIndex": 9,
       "Length": 9
     },
     {
       "ReferencedDocumentId": "NotFound",
-      "StartIndex": 53,
+      "StartIndex": 27,
       "Length": 6
     },
     {
       "ReferencedDocumentId": "Environments-1",
-      "StartIndex": 63,
+      "StartIndex": 37,
       "Length": 11
     }
   ],
   "Comments": null,
   "Details": null,
-  "IdentityEstablishedWith": "Unknown"
+  "IdentityEstablishedWith": "Session cookie"
 }

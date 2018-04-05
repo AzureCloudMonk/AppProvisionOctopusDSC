@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-220",
+  "Id": "CommunityActionTemplates-232",
   "Name": "Test - Run NUnit",
   "ExternalId": "edcacbb5-6776-445a-9555-576ee4c3e2d6",
   "Description": "Runs NUnit tests from a list of assemblies.",

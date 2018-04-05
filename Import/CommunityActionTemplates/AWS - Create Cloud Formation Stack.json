@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-9",
+  "Id": "CommunityActionTemplates-14",
   "Name": "AWS - Create Cloud Formation Stack",
   "ExternalId": "d6d9d9db-e4ab-487c-967c-860bf8303052",
   "Description": "Creates a [Amazon Cloud Formation Stack](#http://docs.aws.amazon.com/powershell/latest/reference/items/New-CFNStack.html) with the template specified.\n\n- Requires the [AWS PowerShell cmdlets](http://aws.amazon.com/powershell/)",

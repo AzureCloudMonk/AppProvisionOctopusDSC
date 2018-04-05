@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-10",
+  "Id": "CommunityActionTemplates-15",
   "Name": "AWS - Create Lambda",
   "ExternalId": "001609c0-35d0-4faa-95c3-a995faaeaa5e",
   "Description": "Creates a [AWS Lambda Function](#https://aws.amazon.com/lambda/) from the specified zip.\n\nIf the function exists, it will update the function code and update function configuration.\n- Requires the [AWS PowerShell cmdlets](http://aws.amazon.com/powershell/)\n\nTo create environment variables, add variables in project starting with 'env.'.\nFor example, to create environment variable S3BucketName = MyTestFolder, create variable 'env.S3BucketName' = 'MyTestFolder'.",

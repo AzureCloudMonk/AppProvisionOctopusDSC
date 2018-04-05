@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-151",
+  "Id": "CommunityActionTemplates-160",
   "Name": "Pingdom - Pause, Resume Uptime Check",
   "ExternalId": "e2324451-0488-4dbf-acc8-656cc2f8defb",
   "Description": "Modifies Pingdom http check using [Modify Check API method](https://www.pingdom.com/resources/api#MethodModify+Check).",

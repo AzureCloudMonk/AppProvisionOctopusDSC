@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-115",
+  "Id": "CommunityActionTemplates-123",
   "Name": "IIS Virtual Directory - Create",
   "ExternalId": "2cfbcd72-cf43-43fd-8291-9bb564cc512c",
   "Description": "Create an IIS virtual directory.",

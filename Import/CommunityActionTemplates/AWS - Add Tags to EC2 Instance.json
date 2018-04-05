@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-282",
+  "Id": "CommunityActionTemplates-10",
   "Name": "AWS - Add Tags to EC2 Instance",
   "ExternalId": "82500bb2-f442-44f3-a5a5-7ecb4165ee1f",
   "Description": "This step will Add or Remove Tags from an EC2 instance.\n\nWorks well with the \"_AWS - Launch EC2 Instance_\" Community Step Template.\n\n[AWS Tools for Windows PowerShell](http://aws.amazon.com/powershell/) must be installed on the Server/Target you plan on running this step template on.",

@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-185",
+  "Id": "CommunityActionTemplates-194",
   "Name": "Service - Check Running (Bash)",
   "ExternalId": "2617b82a-c5f8-4a66-a9eb-e99b37e127d8",
   "Description": "Check if any given service or list of services is/are running (uses `ps` command)",

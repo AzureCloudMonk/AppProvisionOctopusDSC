@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-18",
+  "Id": "CommunityActionTemplates-24",
   "Name": "Azure - Copy Storage Account Containers",
   "ExternalId": "bf955a12-57ee-41b0-af58-672ca48ea07d",
   "Description": "Copy blobs between specified containers across two different storage accounts",

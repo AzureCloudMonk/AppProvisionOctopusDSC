@@ -2,34 +2,22 @@
   "$type": "Octopus.Core.Model.Events.Event, Octopus.Core",
   "Id": "Events-179",
   "RelatedDocumentIds": [
-    "Projects-3",
-    "Environments-1",
-    "Channels-3",
-    "ProjectGroups-1"
+    "Projects-1",
+    "Environments-1"
   ],
-  "ProjectId": "Projects-3",
+  "ProjectId": "Projects-1",
   "EnvironmentId": "Environments-1",
   "TenantId": null,
-  "Category": "DeploymentQueued",
+  "Category": "TaskCanceled",
   "UserId": "Users-1",
   "Username": "admin",
-  "Occurred": "2018-01-15T18:19:13.1892828+00:00",
-  "Message": "Deployed webApp release 0.0.1 to Development",
+  "Occurred": "2018-01-14T19:22:31.8462268+00:00",
+  "Message": "Task Deploy ansibleish release 0.0.1 to Development #49 was canceled",
   "MessageReferences": [
     {
-      "ReferencedDocumentId": "Projects-3",
-      "StartIndex": 9,
-      "Length": 6
-    },
-    {
       "ReferencedDocumentId": "NotFound",
-      "StartIndex": 24,
-      "Length": 5
-    },
-    {
-      "ReferencedDocumentId": "Environments-1",
-      "StartIndex": 33,
-      "Length": 11
+      "StartIndex": 5,
+      "Length": 50
     }
   ],
   "Comments": null,

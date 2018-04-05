@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-3",
+  "Id": "CommunityActionTemplates-4",
   "Name": "Amazon Cloudfront Cache Invalidation",
   "ExternalId": "de9a03dc-25e1-40fe-8047-716e4462bd23",
   "Description": "Invalidate AWS Cloudfront cache. This template uses the AWS CLI tool. ALL step fields need to be populated for this template to work.\n\nAWS CLI needs to be installed on your deployment server for this to work properly:\nhttps://aws.amazon.com/cli/",

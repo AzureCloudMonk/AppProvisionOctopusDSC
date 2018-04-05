@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-198",
+  "Id": "CommunityActionTemplates-207",
   "Name": "SQL - Create Database Login and User using SMO",
   "ExternalId": "7ed93dfa-b137-4341-9c6c-84fa0565d865",
   "Description": "Requires SMO to be installed on the machine where this step will be run.",

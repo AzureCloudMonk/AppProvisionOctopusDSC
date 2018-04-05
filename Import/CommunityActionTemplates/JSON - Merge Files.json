@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-132",
+  "Id": "CommunityActionTemplates-140",
   "Name": "JSON - Merge Files",
   "ExternalId": "6bb1fb50-de38-4380-a5ef-7f21ac3a3e6f",
   "Description": "Merge JSON files",

@@ -1,6 +1,6 @@
 {
   "$type": "Octopus.Core.Model.Projects.CommunityActionTemplate, Octopus.Core",
-  "Id": "CommunityActionTemplates-231",
+  "Id": "CommunityActionTemplates-243",
   "Name": "Wait for IIS connections to drop to 0 or time expires",
   "ExternalId": "2e27acd9-5ab3-4580-b746-7d0a0de23fcc",
   "Description": "Wait for IIS connections to drop to 0 or time expires",

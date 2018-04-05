@@ -1,25 +1,17 @@
 {
   "$type": "Octopus.Core.Model.Events.Event, Octopus.Core",
   "Id": "Events-66",
-  "RelatedDocumentIds": [
-    "feeds-builtin"
-  ],
+  "RelatedDocumentIds": [],
   "ProjectId": null,
   "EnvironmentId": null,
   "TenantId": null,
-  "Category": "Created",
-  "UserId": "Users-1",
-  "Username": "admin",
-  "Occurred": "2018-01-16T15:23:29.1383789+00:00",
-  "Message": "Package webApp version 0.0.1 was pushed to the builtin feed",
-  "MessageReferences": [
-    {
-      "ReferencedDocumentId": "feeds-builtin",
-      "StartIndex": 47,
-      "Length": 7
-    }
-  ],
+  "Category": "Exported",
+  "UserId": "User Manager",
+  "Username": "ContainerAdministrator",
+  "Occurred": "2018-01-17T16:42:24.0477487+00:00",
+  "Message": "Exported complete copy of configuration to c:\\import",
+  "MessageReferences": [],
   "Comments": null,
   "Details": null,
-  "IdentityEstablishedWith": "Session cookie"
+  "IdentityEstablishedWith": "Command-line or tools"
 }
